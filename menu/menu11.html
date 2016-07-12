@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+    <title>CSS3图片筛选过滤效果</title>
+    <style>
+        body{
+            margin:0;
+            min-height:1200px
+        }
+        .filter a{
+            padding: 10px 20px;
+            display:inline-block;
+            color:#003;
+            background:#eee;
+            text-decoration:none;
+            transition:all 0.2s;
+            border-radius:9px
+        }
+        .filter a:hover{
+            background:#8ad
+        }
+        .filter{
+            padding:50px;
+            text-align:center
+        }
+        .sets a img{
+            width:100%;
+            height:auto;
+            float:left;
+        }
+        .sets a{
+            width:33.33%;
+            transition:all 0.2s;
+            display:block;
+            float:left;
+            opacity:1;
+            height:auto;
+        }
+
+        .sets .hide, .sets .pophide{
+            width:0%;
+            opacity:0;
+            transition:all 0.1s;
+        }
+
+        .sets .pop{
+            width:100%;
+            position:relative;
+            z-index:2;
+            box-shadow:0 0 0px 1000px rgba(0,0,0,0.5);
+        }
+        .pop:after{
+            content:"\00D7";
+            position:absolute;
+            top:10px;
+            right:10px;
+            color:#333;
+            background:#fff;
+            padding:10px 15px;
+            border-radius:50%;
+            opacity:0.8;
+        }
+        .pop:hover:after{
+            opacity:1
+        }
+    </style>
+
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+
+
+
+</head>
+
+<body>
+
+<div class="filter">
+    <a href="#all">ALL</a>
+    <a href="#cats">CATS</a>
+    <a href="#dogs">DOGS</a>
+    <a href="#cthulhu">DARK LORD</a>
+</div>
+<div class="sets">
+    <a href="#" class="cats" ><img src="../public/img/2.jpg"></a>
+    <a href="#" class="cthulhu"><img src="../public/img/2.jpg"></a>
+    <a href="#" class="cats" ><img src="../public/img/2.jpg"></a>
+    <a href="#" class="cats" ><img src="../public/img/2.jpg"></a>
+    <a href="#" class="dogs" ><img src="../public/img/2.jpg"></a>
+    <a href="#" class="dogs" ><img src="../public/img/2.jpg">
+        <a href="#" class="cthulhu" ><img src="../public/img/2.jpg"></a>
+        <a href="#" class="dogs" ><img src="../public/img/2.jpg"></a>
+        <a href="#" class="cthulhu" ><img src="../public/img/2.jpg"></a>
+</div>
+
+
+<script src='http://zaole.net/sliding.js'></script>
+
+<script>
+    $('.filter a').click(function (e) {
+        e.preventDefault();
+        var a = $(this).attr('href');
+        a = a.substr(1);
+        $('.sets a').each(function () {
+            if (!$(this).hasClass(a) && a != 'all')
+                $(this).addClass('hide');
+            else
+                $(this).removeClass('hide');
+        });
+    });
+    $('.sets a').click(function (e) {
+        e.preventDefault();
+        var $i = $(this);
+        $('.sets a').not($i).toggleClass('pophide');
+        $i.toggleClass('pop');
+    });
+    //@ sourceURL=pen.js
+</script>
+
+
+<script>
+    if (document.location.search.match(/type=embed/gi)) {
+        window.parent.postMessage("resize", "*");
+    }
+</script>
+
+
+</body>
+</html>

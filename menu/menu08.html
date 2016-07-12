@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+
+
+    <title>CodePen - Bounce Menu</title>
+
+
+
+
+    <style>
+        /*	Reset & General */
+        * { margin: 0px; padding: 0px; }
+        body {
+            background: #2e2c35;
+            width: 100%; height: 100%;
+        }
+        /*
+        a.codepen {
+            display: block;
+            height: 43px; width: 150px;
+            background: url('http://creativeda.sh/sandbox/bounce_menu/img/codepen.png');
+            text-indent: -9999px; font-size: 0px;
+            position: absolute;
+            top: 50%; left: 50%;
+            z-index: 200;
+            margin: 420px 0px 0px -72px;
+        }
+
+        div.circle {
+            height: 77px; width: 77px;
+            background: url('http://creativeda.sh/sandbox/bounce_menu/img/circle.png');
+            position: absolute;
+            top: 50%; left: 50%;
+            z-index: 1000;
+            margin: 164px 0px 0px -168px;
+            pointer-events: none;
+            animation: pulse 5s infinite;
+            -webkit-animation: pulse 1.5s infinite;
+            opacity: 0;
+        }
+            @keyframes pulse {
+                0%   { opacity: 0; }
+                50%  { opacity: 1; }
+                100% { opacity: 0; }
+            }
+            @-webkit-keyframes pulse {
+                0%   { opacity: 0; }
+                50%  { opacity: 1; }
+                100% { opacity: 0; }
+            }
+        */
+
+        /*	Device & Screen */
+        div.device {
+            height: 100%; width: 100%;
+            /*width: 440px; height: 807px;*/
+            background: url('http://creativeda.sh/sandbox/bounce_menu/img/iphone_black.png') no-repeat center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            position: absolute; margin: auto;
+            top: 0px; bottom: 00px; left: 0px; right: 0px;
+        }
+        div.screen {
+            height: 100%; width: 100%;
+            position: absolute;
+            /*top: 119px; */
+            left: 0px;
+            overflow: hidden;
+        }
+        div.content {
+            height: 100%; width: 100%;
+            background: #375585;
+            position: absolute;
+            top: 0px; left: 0px;
+            z-index: 300;
+            -webkit-transition: all 250ms ease;
+            -moz-transition: all 250ms ease;
+            -ms-transition: all 250ms ease;
+            -o-transition: all 250ms ease;
+            transition: all 250ms ease;
+        }
+        div.content.bounce {
+            -webkit-transform: translate3d(70px, -65px, 0px);
+            -moz-transform: translate3d(70px, -65px, 0px);
+            -o-transform: translate3d(70px, -65px, 0px);
+            transform: translate3d(70px, -65px, 0px);
+        }
+        div.content.open {
+            -webkit-transform: translate3d(60px, -55px, 0px);
+            -moz-transform: translate3d(60px, -55px, 0px);
+            -o-transform: translate3d(60px, -55px, 0px);
+            transform: translate3d(60px, -55px, 0px);
+        }
+
+
+        /*	Toggle & Menu */
+        div.toggle {
+            height: 30px; width: 40px;
+            position: absolute;
+            bottom: 15px; left: 10px;
+            z-index: 500;
+            cursor: pointer;
+        }
+        div.x,
+        div.y {
+            position: absolute; margin: auto;
+            top: 0px; bottom: 0px;
+            left: 0px; right: 0px;
+            background: #fff;
+            -webkit-transition: all 200ms ease-out;
+            -moz-transition: all 200ms ease-out;
+            -ms-transition: all 200ms ease-out;
+            -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+        }
+        div.x { height: 4px; width: 30px; }
+        div.y { height: 30px; width: 4px; }
+        div.x.stretch { width: 40px; }
+        div.x.shrink { width: 15px; }
+        div.y.minus { height: 0px; }
+
+        div.menu {
+            background: #222;
+            height: 100%; width: 100%;
+            position: absolute;
+            top: 0px; left: 0px;
+            z-index: 100;
+        }
+        div.menu ul {
+            list-style: none;
+            padding: 0px; margin: 0px;
+            height: 150px;
+            width: 35px;
+            position: absolute;
+            top: 60px; left: 11px;
+        }
+        div.menu ul li {
+            margin-top: 15px;
+        }
+        div.menu ul li a {
+            display: block;
+            height: 31px; width: 31px;
+            /*text-indent: -9999px; font-size: 0px;*/
+            background:red center center;
+            color:red;
+
+        }
+        div.menu ul li.animate a {
+            -webkit-transition: all 300ms ease-out;
+            -moz-transition: all 300ms ease-out;
+            -ms-transition: all 300ms ease-out;
+            -o-transition: all 300ms ease-out;
+            transition: all 300ms ease-out;
+        }
+        div.menu ul li.lock a {
+            /*background-image: url('http://creativeda.sh/sandbox/bounce_menu/img/icon_lock.png'); */
+            -webkit-transform: translate3d(-50px, -30px, 0px);
+            -moz-transform: translate3d(-50px, -30px, 0px);
+            -o-transform: translate3d(-50px, -30px, 0px);
+            transform: translate3d(-50px, -30px, 0px);
+            color: pink
+        }
+        div.menu ul li.share a {
+            /*background-image: url('http://creativeda.sh/sandbox/bounce_menu/img/icon_share.png'); */
+            -webkit-transform: translate3d(-50px, 0px, 0px);
+            -moz-transform: translate3d(-50px, 0px, 0px);
+            -o-transform: translate3d(-50px, 0px, 0px);
+            transform: translate3d(-50px, 0px, 0px);
+        }
+        div.menu ul li.download a {
+            /*background-image: url('http://creativeda.sh/sandbox/bounce_menu/img/icon_download.png'); */
+            -webkit-transform: translate3d(-50px, 30px, 0px);
+            -moz-transform: translate3d(-50px, 30px, 0px);
+            -o-transform: translate3d(-50px, 30px, 0px);
+            transform: translate3d(-50px, 30px, 0px);
+        }
+        div.menu ul li.color a {  background-color: #fff; }
+        div.menu ul li.move a {
+            -webkit-transform: translate3d(0px, 0px, 0px);
+            -moz-transform: translate3d(0px, 0px, 0px);
+            -o-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+        }
+    </style>
+
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+
+
+
+</head>
+
+<body>
+
+<div class="device">
+    <div class="screen">
+        <div class="menu">
+            <ul>
+                <li class="lock"><a href="">11111</a></li>
+                <li class="share"><a href="">Share</a></li>
+                <li class="download"><a href="">Download</a></li>
+                <li class="download"><a href="http://baidu.com">####</a></li>
+            </ul>
+        </div>
+        <div class="toggle">
+            <div class="x"></div>
+            <div class="y"></div>
+        </div>
+        <div class="content"></div>
+    </div>
+</div>
+<div class="circle"></div>
+<script src="http://code.jquery.com/jquery-latest.min.js">
+    <script src="http://assets.codepen.io/assets/common/stopExecutionOnTimeout-f961f59a28ef4fd551736b43f94620b5.js"></script>
+
+
+<script>
+    if ('ontouchstart' in window) {
+        var click = 'touchstart';
+    } else {
+        var click = 'click';
+    }
+    $('div.toggle').on(click, function () {
+        if (flag) {
+            if (!$(this).hasClass('minus')) {
+                openMenu();
+            } else {
+                closeMenu();
+            }
+        }
+    });
+    $('div.menu ul li a').on(click, function (e) {
+        e.preventDefault();
+        closeMenu();
+    });
+    var flag = true;
+    function openMenu() {
+        flag = false;
+        $('div.circle').remove();
+        $('div.toggle').addClass('minus');
+        $('div.y').addClass('minus');
+        setTimeout(function () {
+            $('div.x').addClass('stretch');
+        }, 100);
+        setTimeout(function () {
+            $('div.x').removeClass('stretch');
+        }, 300);
+        $('div.content').addClass('bounce');
+        setTimeout(function () {
+            $('div.content').removeClass('bounce').addClass('open');
+        }, 250);
+        $('div.menu ul li').addClass('animate');
+        $('div.menu ul li').addClass('move');
+        setTimeout(function () {
+            $('div.menu ul li').addClass('color');
+        }, 200);
+        setTimeout(function () {
+            flag = true;
+        }, 400);
+    }
+    function closeMenu() {
+        flag = false;
+        $('div.toggle').removeClass('minus');
+        $('div.y').removeClass('minus');
+        $('div.x').addClass('shrink');
+        setTimeout(function () {
+            $('div.x').removeClass('shrink');
+        }, 200);
+        $('div.content').removeClass('open');
+        setTimeout(function () {
+            $('div.menu ul li').removeClass('animate');
+            $('div.menu ul li').removeClass('color move');
+            flag = true;
+        }, 300);
+    }
+    //@ sourceURL=pen.js
+</script>
+
+
+<script>
+    if (document.location.search.match(/type=embed/gi)) {
+        window.parent.postMessage("resize", "*");
+    }
+</script>
+
+
+</body>
+</html>
+ 

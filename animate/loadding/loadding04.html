@@ -1,0 +1,285 @@
+<!DOCTYPE html><html class=''>
+<head>
+    <style class="cp-pen-styles">/*--------------------
+Mixins
+--------------------*/
+    /*--------------------
+    Body
+    --------------------*/
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        height: 100%;
+        background: #fff;
+        font-weight: 300;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+    }
+
+    /*--------------------
+    Button
+    --------------------*/
+    .btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .btn button {
+        border: 2px solid #0a7fad;
+        border-radius: 20px;
+        color: #0a7fad;
+        text-transform: uppercase;
+        background: none;
+        padding: 11px 46px;
+        font-weight: 700;
+        outline: none;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        display: inline-block;
+        height: 40px;
+        width: 177px;
+        user-select: none;
+    }
+    .btn button:hover {
+        background: #0a7fad;
+        color: #fff;
+    }
+    .btn.loading::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        content: '';
+        display: block;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: #fff;
+        z-index: 2;
+        margin-top: 4px;
+        animation: ball 0.45s cubic-bezier(0, 0, 0.15, 1) alternate infinite;
+        animation-delay: .15s;
+    }
+    .btn.loading button {
+        font-size: 0;
+        width: 40px;
+        background: #0a7fad;
+    }
+    .btn.loading button::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        content: '';
+        display: block;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: #fff;
+        z-index: 2;
+        margin-top: 4px;
+        animation: ball 0.45s cubic-bezier(0, 0, 0.15, 1) alternate infinite;
+        margin-left: -10px;
+    }
+    .btn.loading button::after {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        content: '';
+        display: block;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: #fff;
+        z-index: 2;
+        margin-top: 4px;
+        animation: ball 0.45s cubic-bezier(0, 0, 0.15, 1) alternate infinite;
+        margin-left: 10px;
+        animation-delay: .3s;
+    }
+
+    /*--------------------
+    Message
+    --------------------*/
+    .message {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 3;
+        width: 360px;
+        height: 145px;
+        color: #fff;
+        background: linear-gradient(135deg, #0a5e79, #2ba888);
+        border-radius: 120px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+        padding: 36px;
+        transition: all .3s ease-in-out .3s;
+        transform: scale(0) translate(-50%, -100%);
+        transform-origin: 0 0;
+        opacity: 0;
+        user-select: none;
+    }
+    .message .title {
+        font-size: 20px;
+        text-transform: uppercase;
+        text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+        font-weight: 700;
+        margin-bottom: 12px;
+        position: relative;
+        transition: all .3s ease-in-out .2s;
+        transform: scale(0) translateY(-20%);
+        opacity: 0;
+        -webkit-backface-visibility: hidden;
+    }
+    .message .msg {
+        font-size: 14px;
+        line-height: 1.4;
+        font-style: italic;
+        position: relative;
+        transition: all .3s ease-in-out .1s;
+        transform: scale(0) translateY(-20%);
+        opacity: 0;
+        -webkit-backface-visibility: hidden;
+    }
+    .message .close {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        z-index: 2;
+        cursor: pointer;
+        width: 18px;
+        height: 18px;
+        transition: all .3s ease-in-out 0s;
+        transform: scale(0) translateY(-20%);
+        opacity: 0;
+    }
+    .message .close svg {
+        width: 18px;
+        height: 18px;
+    }
+    .message.message-error {
+        background: linear-gradient(135deg, #f0223e, #f34238);
+    }
+
+    .message.active {
+        opacity: 1;
+        transform: scale(1) translate(-50%, -50%);
+        transition: all 0.3s cubic-bezier(0, 1.07, 0.48, 1.11) 0.1s;
+        border-radius: 12px;
+    }
+    .message.active .title {
+        opacity: 1;
+        transition: all 0.3s cubic-bezier(0, 1.07, 0.48, 1.11) 0.3s;
+        transform: scale(1) translateY(0);
+    }
+    .message.active .msg {
+        opacity: 1;
+        transition: all 0.3s cubic-bezier(0, 1.07, 0.48, 1.11) 0.4s;
+        transform: scale(1) translateY(0);
+    }
+    .message.active .close {
+        opacity: 1;
+        transition: all 0.3s cubic-bezier(0, 1.07, 0.48, 1.11) 0.55s;
+        transform: scale(1) translateY(0);
+    }
+
+    .message.closing {
+        opacity: 0;
+        transform: scale(0) translate(-50%, -50%);
+    }
+    .message.closing .title, .message.closing .msg, .message.closing .close {
+        opacity: 0;
+        transform: scale(0) translateY(0);
+    }
+
+    /*--------------------
+    Keyframe
+    --------------------*/
+    @keyframes ball {
+        from {
+            transform: translateY(0) scaleY(0.8);
+        }
+        to {
+            transform: translateY(-10px);
+        }
+    }
+    </style></head><body>
+<!--
+
+Follow me on
+Dribbble: https://dribbble.com/supahfunk
+Twitter: https://twitter.com/supahfunk
+Codepen: http://codepen.io/supah/
+
+-->
+<div class="btn"><button>Continue</button></div>
+<div class="message message-success">
+    <div class="title">Well done</div>
+    <div class="msg">
+        Your account has been created<br>
+        Login and spread love
+    </div>
+    <div class="close">
+        <svg>
+            <use xlink:href="#close">
+            </use>
+        </svg>
+    </div>
+</div>
+<div class="message message-error">
+    <div class="title">Something went wrong</div>
+    <div class="msg">
+        An error occurred during activation<br>
+        Please try again
+    </div>
+    <div class="close">
+        <svg>
+            <use xlink:href="#close">
+            </use>
+        </svg>
+    </div>
+</div>
+
+<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none;">
+    <symbol id="close" viewBox="0 0 18 18">
+        <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M9,0.493C4.302,0.493,0.493,4.302,0.493,9S4.302,17.507,9,17.507
+			S17.507,13.698,17.507,9S13.698,0.493,9,0.493z M12.491,11.491c0.292,0.296,0.292,0.773,0,1.068c-0.293,0.295-0.767,0.295-1.059,0
+			l-2.435-2.457L6.564,12.56c-0.292,0.295-0.766,0.295-1.058,0c-0.292-0.295-0.292-0.772,0-1.068L7.94,9.035L5.435,6.507
+			c-0.292-0.295-0.292-0.773,0-1.068c0.293-0.295,0.766-0.295,1.059,0l2.504,2.528l2.505-2.528c0.292-0.295,0.767-0.295,1.059,0
+			s0.292,0.773,0,1.068l-2.505,2.528L12.491,11.491z"/>
+    </symbol>
+</svg>
+<script src='../../public/js/sliding.js'></script>
+<script>var success = false;
+var message;
+function connect() {
+    $('.btn').addClass('loading');
+    $('.btn').off('click', connect);
+    setTimeout(misteryMessage, 2000);
+}
+function misteryMessage() {
+    message = success ? 'success' : 'error';
+    $('.message-' + message).addClass('active');
+    setTimeout(function () {
+        $('.btn').removeClass('loading');
+    }, 500);
+    success = !success;
+}
+function closeMessage() {
+    $('.message-' + message).removeClass('active');
+    $('.btn').on('click', connect);
+}
+$('.btn').on('click', connect);
+$('.close').click(closeMessage);
+//# sourceURL=pen.js
+</script>
+</body></html>

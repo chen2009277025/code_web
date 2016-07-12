@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<title>文字向上翻滚效果</title>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+</head>
+<style type="text/css">
+    li {
+        list-style: none;
+    }
+    h3{
+        color: red;
+        text-align: center;
+        font: bold 18px/1.5 "microsoft yahei";
+    }
+    .prizes {
+        height: 60px;
+        width: 196px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .prizes .leftbg {
+        position: absolute;
+        left: -15px;
+        top: 10px;
+        width: 15px;
+        height: 40px;
+        background: url(http://panda2.woniu.com/static/web20150909/src/images/icon1.png) no-repeat;
+    }
+
+    .prizes .rightbg {
+        position: absolute;
+        right: -15px;
+        top: 10px;
+        width: 15px;
+        height: 40px;
+        background: url(http://panda2.woniu.com/static/web20150909/src/images/icon2.png) no-repeat;
+    }
+
+    .prizes .prizesbox {
+        height: 45px;
+        width: 196px;
+        overflow: hidden;
+        margin-top: 5px;
+    }
+
+    .prizesbox ul {
+        -moz-padding-start: 0;
+        -webkit-padding-start: 0;
+        margin-top: 0;
+    }
+
+    .prizes .prizesbox ul li {
+        font: normal 14px/22px "microsoft yahei";
+        color: #444444;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+</style>
+
+<body>
+<h3>每2秒滚动一次</h3>
+<div class="prizes">
+    <div class="leftbg"></div>
+    <div class="rightbg"></div>
+    <div class="prizesbox">
+        <ul>
+            <li>2015金翎奖
+                <br>玩家最期待的移动网络游戏</li>
+            <li>第七届CGDA
+                <br>最佳移动游戏设计创新奖</li>
+            <li>第七届CGDA
+                <br>最佳移动游戏制作奖</li>
+            <li>苹果官方
+                <br>“优秀新游戏”推荐</li>
+        </ul>
+    </div>
+</div>
+<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(function() {
+        setInterval(scrollPrize, 2000);
+
+        function scrollPrize() {
+            var $self = $('.prizesbox ul');
+            $self.animate({
+                'margin-top': "-60px"
+            }, 600, function() {
+                $self.css('margin-top', '0').find("li:lt(1)").appendTo($self);
+            })
+        }
+    })
+</script>
+</body>
+
+</html>

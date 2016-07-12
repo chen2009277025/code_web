@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>三种实现水平居中的方法</title>
+<style>
+    body{
+        text-align:center;
+    }
+    .demo01{
+        width: 400px;
+        height: 100px;
+        background-color: red;
+        margin: 0 auto;
+    }
+
+    .demo02{
+        width: 400px;
+        height: 100px;
+        background-color: red;
+        position: absolute;
+        left:50%;
+        top: 120px;
+        margin-left:-200px;
+    }
+
+    .demo03{
+        width: 400px;
+        height: 100px;
+        background-color: red;
+        display:inline-block;
+        margin-top:120px;
+    }
+
+
+
+</style>
+<body>
+<div class="demo01">demo01</div>
+<div class="demo02">demo02</div>
+<div class="demo03">demo03</div>
+</body>
+</html>
