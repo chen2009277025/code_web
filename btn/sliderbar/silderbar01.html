@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+
+
+    <title>input价格范围选项</title>
+
+
+
+
+    <style>
+        body {
+            background: #fff;
+            min-height: 100vh;
+        }
+
+        .center {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .flat-slider {
+            min-width: 300px;
+            max-width: 400px;
+            margin: auto;
+        }
+        .flat-slider input[type=range] {
+            -webkit-appearance: none;
+            padding: 0;
+            border: 0;
+            width: 100%;
+            box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.1);
+            border-radius: 6px;
+            background: transparent;
+        }
+        .flat-slider input[type=range]:focus {
+            outline: none;
+        }
+        .flat-slider input[type=range]::-webkit-slider-runnable-track {
+            position: relative;
+            width: 100%;
+            height: 12px;
+            cursor: pointer;
+            background: transparent linear-gradient(#d4ecf4, #d4ecf4) no-repeat;
+            border-radius: 6px;
+            background-size: 50% 100%;
+        }
+        .flat-slider input[type=range]::-webkit-slider-thumb {
+            position: relative;
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            height: 24px;
+            width: 24px;
+            border-radius: 2px;
+            cursor: -webkit-grab;
+            -webkit-appearance: none;
+            margin-top: -6px;
+            background: #fff linear-gradient(90deg, transparent 0, transparent 3px, rgba(0, 0, 0, 0.1) 3px, rgba(0, 0, 0, 0.1) 4px, transparent 4px, transparent 6px, rgba(0, 0, 0, 0.1) 6px, rgba(0, 0, 0, 0.1) 7px, transparent 7px) no-repeat;
+            background-position: 50% 50%;
+            background-size: 10px 10px;
+            transition: all 0.1s ease;
+        }
+        .flat-slider input[type=range]::-webkit-slider-thumb:active {
+            cursor: -webkit-grabbing;
+            transform: scale(0.9);
+            border-radius: 3px;
+        }
+        .flat-slider input[type=range][value='0']::-webkit-slider-runnable-track {
+            background-size: 0% 100%;
+        }
+        .flat-slider input[type=range][value='1']::-webkit-slider-runnable-track {
+            background-size: 1% 100%;
+        }
+        .flat-slider input[type=range][value='2']::-webkit-slider-runnable-track {
+            background-size: 2% 100%;
+        }
+        .flat-slider input[type=range][value='3']::-webkit-slider-runnable-track {
+            background-size: 3% 100%;
+        }
+        .flat-slider input[type=range][value='4']::-webkit-slider-runnable-track {
+            background-size: 4% 100%;
+        }
+        .flat-slider input[type=range][value='5']::-webkit-slider-runnable-track {
+            background-size: 5% 100%;
+        }
+        .flat-slider input[type=range][value='6']::-webkit-slider-runnable-track {
+            background-size: 6% 100%;
+        }
+        .flat-slider input[type=range][value='7']::-webkit-slider-runnable-track {
+            background-size: 7% 100%;
+        }
+        .flat-slider input[type=range][value='8']::-webkit-slider-runnable-track {
+            background-size: 8% 100%;
+        }
+        .flat-slider input[type=range][value='9']::-webkit-slider-runnable-track {
+            background-size: 9% 100%;
+        }
+        .flat-slider input[type=range][value='10']::-webkit-slider-runnable-track {
+            background-size: 10% 100%;
+        }
+        .flat-slider input[type=range][value='11']::-webkit-slider-runnable-track {
+            background-size: 11% 100%;
+        }
+        .flat-slider input[type=range][value='12']::-webkit-slider-runnable-track {
+            background-size: 12% 100%;
+        }
+        .flat-slider input[type=range][value='13']::-webkit-slider-runnable-track {
+            background-size: 13% 100%;
+        }
+        .flat-slider input[type=range][value='14']::-webkit-slider-runnable-track {
+            background-size: 14% 100%;
+        }
+        .flat-slider input[type=range][value='15']::-webkit-slider-runnable-track {
+            background-size: 15% 100%;
+        }
+        .flat-slider input[type=range][value='16']::-webkit-slider-runnable-track {
+            background-size: 16% 100%;
+        }
+        .flat-slider input[type=range][value='17']::-webkit-slider-runnable-track {
+            background-size: 17% 100%;
+        }
+        .flat-slider input[type=range][value='18']::-webkit-slider-runnable-track {
+            background-size: 18% 100%;
+        }
+        .flat-slider input[type=range][value='19']::-webkit-slider-runnable-track {
+            background-size: 19% 100%;
+        }
+        .flat-slider input[type=range][value='20']::-webkit-slider-runnable-track {
+            background-size: 20% 100%;
+        }
+        .flat-slider input[type=range][value='21']::-webkit-slider-runnable-track {
+            background-size: 21% 100%;
+        }
+        .flat-slider input[type=range][value='22']::-webkit-slider-runnable-track {
+            background-size: 22% 100%;
+        }
+        .flat-slider input[type=range][value='23']::-webkit-slider-runnable-track {
+            background-size: 23% 100%;
+        }
+        .flat-slider input[type=range][value='24']::-webkit-slider-runnable-track {
+            background-size: 24% 100%;
+        }
+        .flat-slider input[type=range][value='25']::-webkit-slider-runnable-track {
+            background-size: 25% 100%;
+        }
+        .flat-slider input[type=range][value='26']::-webkit-slider-runnable-track {
+            background-size: 26% 100%;
+        }
+        .flat-slider input[type=range][value='27']::-webkit-slider-runnable-track {
+            background-size: 27% 100%;
+        }
+        .flat-slider input[type=range][value='28']::-webkit-slider-runnable-track {
+            background-size: 28% 100%;
+        }
+        .flat-slider input[type=range][value='29']::-webkit-slider-runnable-track {
+            background-size: 29% 100%;
+        }
+        .flat-slider input[type=range][value='30']::-webkit-slider-runnable-track {
+            background-size: 30% 100%;
+        }
+        .flat-slider input[type=range][value='31']::-webkit-slider-runnable-track {
+            background-size: 31% 100%;
+        }
+        .flat-slider input[type=range][value='32']::-webkit-slider-runnable-track {
+            background-size: 32% 100%;
+        }
+        .flat-slider input[type=range][value='33']::-webkit-slider-runnable-track {
+            background-size: 33% 100%;
+        }
+        .flat-slider input[type=range][value='34']::-webkit-slider-runnable-track {
+            background-size: 34% 100%;
+        }
+        .flat-slider input[type=range][value='35']::-webkit-slider-runnable-track {
+            background-size: 35% 100%;
+        }
+        .flat-slider input[type=range][value='36']::-webkit-slider-runnable-track {
+            background-size: 36% 100%;
+        }
+        .flat-slider input[type=range][value='37']::-webkit-slider-runnable-track {
+            background-size: 37% 100%;
+        }
+        .flat-slider input[type=range][value='38']::-webkit-slider-runnable-track {
+            background-size: 38% 100%;
+        }
+        .flat-slider input[type=range][value='39']::-webkit-slider-runnable-track {
+            background-size: 39% 100%;
+        }
+        .flat-slider input[type=range][value='40']::-webkit-slider-runnable-track {
+            background-size: 40% 100%;
+        }
+        .flat-slider input[type=range][value='41']::-webkit-slider-runnable-track {
+            background-size: 41% 100%;
+        }
+        .flat-slider input[type=range][value='42']::-webkit-slider-runnable-track {
+            background-size: 42% 100%;
+        }
+        .flat-slider input[type=range][value='43']::-webkit-slider-runnable-track {
+            background-size: 43% 100%;
+        }
+        .flat-slider input[type=range][value='44']::-webkit-slider-runnable-track {
+            background-size: 44% 100%;
+        }
+        .flat-slider input[type=range][value='45']::-webkit-slider-runnable-track {
+            background-size: 45% 100%;
+        }
+        .flat-slider input[type=range][value='46']::-webkit-slider-runnable-track {
+            background-size: 46% 100%;
+        }
+        .flat-slider input[type=range][value='47']::-webkit-slider-runnable-track {
+            background-size: 47% 100%;
+        }
+        .flat-slider input[type=range][value='48']::-webkit-slider-runnable-track {
+            background-size: 48% 100%;
+        }
+        .flat-slider input[type=range][value='49']::-webkit-slider-runnable-track {
+            background-size: 49% 100%;
+        }
+        .flat-slider input[type=range][value='50']::-webkit-slider-runnable-track {
+            background-size: 50% 100%;
+        }
+        .flat-slider input[type=range][value='51']::-webkit-slider-runnable-track {
+            background-size: 51% 100%;
+        }
+        .flat-slider input[type=range][value='52']::-webkit-slider-runnable-track {
+            background-size: 52% 100%;
+        }
+        .flat-slider input[type=range][value='53']::-webkit-slider-runnable-track {
+            background-size: 53% 100%;
+        }
+        .flat-slider input[type=range][value='54']::-webkit-slider-runnable-track {
+            background-size: 54% 100%;
+        }
+        .flat-slider input[type=range][value='55']::-webkit-slider-runnable-track {
+            background-size: 55% 100%;
+        }
+        .flat-slider input[type=range][value='56']::-webkit-slider-runnable-track {
+            background-size: 56% 100%;
+        }
+        .flat-slider input[type=range][value='57']::-webkit-slider-runnable-track {
+            background-size: 57% 100%;
+        }
+        .flat-slider input[type=range][value='58']::-webkit-slider-runnable-track {
+            background-size: 58% 100%;
+        }
+        .flat-slider input[type=range][value='59']::-webkit-slider-runnable-track {
+            background-size: 59% 100%;
+        }
+        .flat-slider input[type=range][value='60']::-webkit-slider-runnable-track {
+            background-size: 60% 100%;
+        }
+        .flat-slider input[type=range][value='61']::-webkit-slider-runnable-track {
+            background-size: 61% 100%;
+        }
+        .flat-slider input[type=range][value='62']::-webkit-slider-runnable-track {
+            background-size: 62% 100%;
+        }
+        .flat-slider input[type=range][value='63']::-webkit-slider-runnable-track {
+            background-size: 63% 100%;
+        }
+        .flat-slider input[type=range][value='64']::-webkit-slider-runnable-track {
+            background-size: 64% 100%;
+        }
+        .flat-slider input[type=range][value='65']::-webkit-slider-runnable-track {
+            background-size: 65% 100%;
+        }
+        .flat-slider input[type=range][value='66']::-webkit-slider-runnable-track {
+            background-size: 66% 100%;
+        }
+        .flat-slider input[type=range][value='67']::-webkit-slider-runnable-track {
+            background-size: 67% 100%;
+        }
+        .flat-slider input[type=range][value='68']::-webkit-slider-runnable-track {
+            background-size: 68% 100%;
+        }
+        .flat-slider input[type=range][value='69']::-webkit-slider-runnable-track {
+            background-size: 69% 100%;
+        }
+        .flat-slider input[type=range][value='70']::-webkit-slider-runnable-track {
+            background-size: 70% 100%;
+        }
+        .flat-slider input[type=range][value='71']::-webkit-slider-runnable-track {
+            background-size: 71% 100%;
+        }
+        .flat-slider input[type=range][value='72']::-webkit-slider-runnable-track {
+            background-size: 72% 100%;
+        }
+        .flat-slider input[type=range][value='73']::-webkit-slider-runnable-track {
+            background-size: 73% 100%;
+        }
+        .flat-slider input[type=range][value='74']::-webkit-slider-runnable-track {
+            background-size: 74% 100%;
+        }
+        .flat-slider input[type=range][value='75']::-webkit-slider-runnable-track {
+            background-size: 75% 100%;
+        }
+        .flat-slider input[type=range][value='76']::-webkit-slider-runnable-track {
+            background-size: 76% 100%;
+        }
+        .flat-slider input[type=range][value='77']::-webkit-slider-runnable-track {
+            background-size: 77% 100%;
+        }
+        .flat-slider input[type=range][value='78']::-webkit-slider-runnable-track {
+            background-size: 78% 100%;
+        }
+        .flat-slider input[type=range][value='79']::-webkit-slider-runnable-track {
+            background-size: 79% 100%;
+        }
+        .flat-slider input[type=range][value='80']::-webkit-slider-runnable-track {
+            background-size: 80% 100%;
+        }
+        .flat-slider input[type=range][value='81']::-webkit-slider-runnable-track {
+            background-size: 81% 100%;
+        }
+        .flat-slider input[type=range][value='82']::-webkit-slider-runnable-track {
+            background-size: 82% 100%;
+        }
+        .flat-slider input[type=range][value='83']::-webkit-slider-runnable-track {
+            background-size: 83% 100%;
+        }
+        .flat-slider input[type=range][value='84']::-webkit-slider-runnable-track {
+            background-size: 84% 100%;
+        }
+        .flat-slider input[type=range][value='85']::-webkit-slider-runnable-track {
+            background-size: 85% 100%;
+        }
+        .flat-slider input[type=range][value='86']::-webkit-slider-runnable-track {
+            background-size: 86% 100%;
+        }
+        .flat-slider input[type=range][value='87']::-webkit-slider-runnable-track {
+            background-size: 87% 100%;
+        }
+        .flat-slider input[type=range][value='88']::-webkit-slider-runnable-track {
+            background-size: 88% 100%;
+        }
+        .flat-slider input[type=range][value='89']::-webkit-slider-runnable-track {
+            background-size: 89% 100%;
+        }
+        .flat-slider input[type=range][value='90']::-webkit-slider-runnable-track {
+            background-size: 90% 100%;
+        }
+        .flat-slider input[type=range][value='91']::-webkit-slider-runnable-track {
+            background-size: 91% 100%;
+        }
+        .flat-slider input[type=range][value='92']::-webkit-slider-runnable-track {
+            background-size: 92% 100%;
+        }
+        .flat-slider input[type=range][value='93']::-webkit-slider-runnable-track {
+            background-size: 93% 100%;
+        }
+        .flat-slider input[type=range][value='94']::-webkit-slider-runnable-track {
+            background-size: 94% 100%;
+        }
+        .flat-slider input[type=range][value='95']::-webkit-slider-runnable-track {
+            background-size: 95% 100%;
+        }
+        .flat-slider input[type=range][value='96']::-webkit-slider-runnable-track {
+            background-size: 96% 100%;
+        }
+        .flat-slider input[type=range][value='97']::-webkit-slider-runnable-track {
+            background-size: 97% 100%;
+        }
+        .flat-slider input[type=range][value='98']::-webkit-slider-runnable-track {
+            background-size: 98% 100%;
+        }
+        .flat-slider input[type=range][value='99']::-webkit-slider-runnable-track {
+            background-size: 99% 100%;
+        }
+        .flat-slider input[type=range][value='100']::-webkit-slider-runnable-track {
+            background-size: 100% 100%;
+        }
+
+    </style>
+
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+
+
+
+</head>
+
+<body>
+
+<div class="center">
+    <div class="flat-slider">
+        <input type='range' steps='100' min='0' max='100'>
+    </div>
+</div>
+
+
+<script>
+    var slider = document.querySelector('input[type=range]');
+    slider.addEventListener('input', function () {
+        this.setAttribute('value', this.value);
+    }, false);
+    //@ sourceURL=pen.js
+</script>
+
+
+］
+
+
+</body>
+</html>
+

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+    <title>响应式menu菜单（含二级菜单）</title>
+    <style>
+
+        body {
+            font-family: "Open Sans";
+            background:#fff;
+        }
+
+        .menu-link {
+            display: none;
+            float: right;
+            text-decoration: none;
+            padding: 20px;
+            height: 100%;
+
+            background:#fff;
+        }
+        @media screen and (max-width: 768px) {
+            .menu-link {
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .nav {
+                clear: both;
+                min-width: inherit;
+                float: none;
+                overflow: hidden;
+                max-height: 0;
+            }
+            .nav.active {
+                max-height: 100%;
+            }
+            .nav li.has-submenu > a:after {
+                content: '+';
+                position: absolute;
+                top: 0;
+                right: 0;
+                display: block;
+                font-size: 1.5em;
+                padding: 10px;
+            }
+            .nav li.has-submenu > a.active:after {
+                content: "-";
+            }
+        }
+        .nav ul {
+            list-style: none;
+            position: relative;
+        }
+        @media screen and (max-width: 768px) {
+            .nav ul {
+                display: inline;
+            }
+        }
+        .nav ul:after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+        .nav ul li {
+            display: inline-block;
+        }
+        @media screen and (max-width: 768px) {
+            .nav ul li {
+                display: block;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .nav ul li a {
+                display: block;
+                padding: 10px;
+                border-bottom: 1px solid #CCCCCC;
+                position: relative;
+            }
+        }
+        .nav ul li:hover > ul {
+            display: block;
+        }
+        > .nav ul li > ul.sub-menu {
+              width: 100%;
+              padding: 4px 0;
+              background-clip: padding-box;
+          }
+        @media screen and (max-width: 768px) {
+        > .nav ul li > ul.sub-menu {
+            padding: 0px;
+            background-clip: padding-box;
+        }
+        }
+        .nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            min-width: 160px;
+        }
+        @media screen and (max-width: 768px) {
+            .nav ul ul {
+                overflow: hidden;
+                max-height: 0;
+                display: inherit;
+                position: relative;
+                left: auto;
+                top: auto;
+                box-shadow: none;
+                border: none;
+            }
+            .nav ul ul.active {
+                max-height: 100%;
+            }
+        }
+        .nav ul ul > li {
+            position: relative;
+        }
+        @media screen and (max-width: 768px) {
+            .nav ul ul > li {
+                display: block;
+            }
+        }
+        .nav ul ul > li a {
+            padding: 5px 15px 5px 10px;
+            height: auto;
+        }
+        @media screen and (max-width: 768px) {
+            .nav ul ul > li a {
+                height: auto;
+                padding: 10px 20px;
+            }
+        }
+        .nav ul ul ul {
+            position: absolute;
+            left: 100%;
+            top: 0;
+        }
+        @media screen and (max-width: 768px) {
+            .nav ul ul ul {
+                display: inherit;
+                position: relative;
+                left: auto;
+                top: auto;
+                box-shadow: none;
+                border: none;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+<h2>
+    缩小至手机大小的屏幕看效果
+</h2>
+<a class="menu-link" href="#menu">☰ Menu</a>
+
+<nav id="nav" class="nav">
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li class="has-submenu"><a class="dropdown-toggle" href="#">Services</a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Service 1</a></li>
+                <li><a href="#">Service 2</a></li>
+                <li><a href="#">Service 3</a></li>
+            </ul>
+        </li>
+        <li><a href="#">About</a></li>
+        <li class="has-submenu"><a class="dropdown-toggle" href="#">Other Services</a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Service 1</a></li>
+                <li><a href="#">Service 2</a></li>
+                <li><a href="#">Service 3</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</nav>
+
+<script src='http://zaole.net/sliding.js'></script>
+
+<script>
+    $(document).ready(function ($) {
+        var $menu = $('#nav'), $menulink = $('.menu-link'), $menuTrigger = $('.has-submenu > a');
+        $menulink.click(function (e) {
+            e.preventDefault();
+            $menulink.toggleClass('active');
+            $menu.toggleClass('active');
+        });
+        $menuTrigger.click(function (e) {
+            e.preventDefault();
+            var $this = $(this);
+            $this.toggleClass('active').next('ul').toggleClass('active');
+        });
+    });
+    //@ sourceURL=pen.js
+</script>
+
+
+<script>
+    if (document.location.search.match(/type=embed/gi)) {
+        window.parent.postMessage("resize", "*");
+    }
+</script>
+
+
+</body>
+</html>
+

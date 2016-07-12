@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+
+
+    <title>仿Tumblr菜单</title>
+
+
+    <link rel="stylesheet" href="http://codepen.io/assets/reset/normalize.css">
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #2c4762;
+        }
+
+        .navigation {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+        }
+        .navigation .postBtn {
+            height: 50px;
+            width: 50px;
+            display: block;
+            background: #262626;
+            position: absolute;
+            z-index: 1;
+            border-radius: 6px;
+            cursor: pointer;
+            -moz-transition: all 0.35s ease-in;
+            -o-transition: all 0.35s ease-in;
+            -webkit-transition: all 0.35s ease-in;
+            transition: all 0.35s ease-in;
+        }
+        .navigation .postBtn:after {
+            content: '+';
+            width: 100%;
+            position: absolute;
+            text-align: center;
+            line-height: 52px;
+            font-family: 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+            color: #575757;
+            font-weight: 100;
+            font-size: 1.8em;
+            -moz-transform: translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+        .navigation .postToggle {
+            display: none;
+        }
+        .navigation ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            position: relative;
+        }
+        .navigation li {
+            position: absolute;
+            overflow: hidden;
+            text-indent: -9999px;
+            height: 50px;
+            width: 50px;
+            background: #d6d6d6;
+            border-radius: 50%;
+            opacity: 0;
+            border: 1px solid white;
+            -moz-background-clip: padding;
+            -o-background-clip: padding-box;
+            -webkit-background-clip: padding;
+            background-clip: padding-box;
+            -moz-transform: translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            -moz-transition: -moz-transform 0.45s cubic-bezier(0.48, 0.13, 0.42, 1.45), opacity 0.3s ease-in;
+            -o-transition: -o-transform 0.45s cubic-bezier(0.48, 0.13, 0.42, 1.45), opacity 0.3s ease-in;
+            -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.48, 0.13, 0.42, 1.45), opacity 0.3s ease-in;
+            transition: transform 0.45s cubic-bezier(0.48, 0.13, 0.42, 1.45), opacity 0.3s ease-in;
+        }
+        .navigation li a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .navigation .text {
+            background: #363636;
+        }
+        .navigation .quote {
+            background: #d44f2e;
+        }
+        .navigation .link {
+            background: #44b57d;
+        }
+        .navigation .chat {
+            background: #a26fbc;
+        }
+        .navigation .video {
+            background: #687480;
+        }
+
+        .postToggle:checked ~ .postBtn {
+            background: #0f0f0f;
+            -moz-transform: scale(0.8, 0.8);
+            -ms-transform: scale(0.8, 0.8);
+            -webkit-transform: scale(0.8, 0.8);
+            transform: scale(0.8, 0.8);
+        }
+        .postToggle:checked ~ .postBtn:after {
+            content: '-';
+            line-height: 48px;
+        }
+        .postToggle:checked ~ ul li {
+            opacity: 1;
+        }
+        .postToggle:checked ~ ul .text {
+            -moz-transform: translate(0, -175%);
+            -ms-transform: translate(0, -175%);
+            -webkit-transform: translate(0, -175%);
+            transform: translate(0, -175%);
+        }
+        .postToggle:checked ~ ul .text:hover {
+            -moz-transform: translate(0, -185%);
+            -ms-transform: translate(0, -185%);
+            -webkit-transform: translate(0, -185%);
+            transform: translate(0, -185%);
+        }
+        .postToggle:checked ~ ul .quote {
+            -moz-transform: translate(125%, -130%);
+            -ms-transform: translate(125%, -130%);
+            -webkit-transform: translate(125%, -130%);
+            transform: translate(125%, -130%);
+        }
+        .postToggle:checked ~ ul .quote:hover {
+            -moz-transform: translate(135%, -140%);
+            -ms-transform: translate(135%, -140%);
+            -webkit-transform: translate(135%, -140%);
+            transform: translate(135%, -140%);
+        }
+        .postToggle:checked ~ ul .link {
+            -moz-transform: translate(175%, 0%);
+            -ms-transform: translate(175%, 0%);
+            -webkit-transform: translate(175%, 0%);
+            transform: translate(175%, 0%);
+        }
+        .postToggle:checked ~ ul .link:hover {
+            -moz-transform: translate(185%, 0);
+            -ms-transform: translate(185%, 0);
+            -webkit-transform: translate(185%, 0);
+            transform: translate(185%, 0);
+        }
+        .postToggle:checked ~ ul .chat {
+            -moz-transform: translate(125%, 130%);
+            -ms-transform: translate(125%, 130%);
+            -webkit-transform: translate(125%, 130%);
+            transform: translate(125%, 130%);
+        }
+        .postToggle:checked ~ ul .chat:hover {
+            -moz-transform: translate(135%, 140%);
+            -ms-transform: translate(135%, 140%);
+            -webkit-transform: translate(135%, 140%);
+            transform: translate(135%, 140%);
+        }
+        .postToggle:checked ~ ul .video {
+            -moz-transform: translate(0px, 175%);
+            -ms-transform: translate(0px, 175%);
+            -webkit-transform: translate(0px, 175%);
+            transform: translate(0px, 175%);
+        }
+        .postToggle:checked ~ ul .video:hover {
+            -moz-transform: translate(0, 185%);
+            -ms-transform: translate(0, 185%);
+            -webkit-transform: translate(0, 185%);
+            transform: translate(0, 185%);
+        }
+
+    </style>
+
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+
+
+
+</head>
+
+<body>
+
+<nav role='navigation' class="navigation">
+    <input type="checkbox" id="post" class="postToggle" />
+    <label for="post" class="postBtn"></label>
+    <ul>
+        <li class="text"><a href="#">Text</a></li>
+        <li class="quote"><a href="#">Quote</a></li>
+        <li class="link"><a href="#">Link</a></li>
+        <li class="chat"><a href="#">Chat</a></li>
+        <li class="video"><a href="#">Video</a></li>
+    </ul>
+</nav>
+
+<script src='http://zaole.net/sliding.js'></script>
+
+
+
+<script>
+    if (document.location.search.match(/type=embed/gi)) {
+        window.parent.postMessage("resize", "*");
+    }
+</script>
+
+
+</body>
+</html>
+

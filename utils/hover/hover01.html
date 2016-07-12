@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+
+
+    <title>icon效果</title>
+
+
+    <style>
+        /* nufoodi-icons */
+        @font-face {
+            font-family: "nufoodi-icons";
+            src:url("../../public/font/1461518242.eot");
+            src:url("https://file.myfontastic.com/aBgM2XCLoVJqUv49iHvCJW/fonts/1461518242.eot?#iefix") format("embedded-opentype"),
+            url("../../public/font/1461518242.woff") format("woff"),
+            url("../../public/font/1461518242.ttf") format("truetype"),
+            url("https://file.myfontastic.com/aBgM2XCLoVJqUv49iHvCJW/fonts/1461518242.svg#1461518242") format("svg");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+
+        [class^="nu-"]:before,
+        [class*=" nu-"]:before {
+            font-family: "nufoodi-icons" !important;
+            font-style: normal !important;
+            font-weight: normal !important;
+            font-variant: normal !important;
+            text-transform: none !important;
+            speak: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+
+        .nu-dessert:before {
+            content: "\26";
+        }
+        .nu-appetizer:before {
+            content: "\27";
+        }
+        .nu-main:before {
+            content: "\28";
+        }
+
+    </style>
+
+
+    <style>
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -o-flex;
+            display: -ms-flex;
+            position: absolute;
+            background: white;
+            font-family: 'Open Sans', sans serif;
+        }
+
+        .container {
+            width: 880px;
+            margin: auto;
+            height: 400px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .item:hover .content i {
+            font-size: 4.6em;
+        }
+
+        .item {
+            width: 30%;
+            margin: auto;
+            background: white;
+            height: inherit;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -o-flex;
+            display: -ms-flex;
+            cursor: pointer;
+        }
+
+        .content {
+            margin: auto;
+            text-align: center;
+            color: #a9a9a9;
+        }
+
+        .nu-appetizer {
+            color: #276cd6;
+        }
+
+        .nu-main {
+            color: #00a651;
+        }
+
+        .nu-dessert {
+            color: #ff4071;
+        }
+
+
+        #app {
+            border: 2px solid #e1e1e1;
+        }
+
+        #app:hover {
+            border: 2px solid #276cd6;
+        }
+
+        #dessert {
+            border: 2px solid #e1e1e1;
+        }
+
+        #dessert:hover {
+            border: 2px solid #ff4071;
+        }
+
+        #main {
+            border: 2px solid #e1e1e1;
+        }
+
+        #main:hover {
+            border: 2px solid #00a651;
+        }
+
+        .content i {
+            font-size: 4em;
+            transition: .3s cubic-bezier(0,.25,.3,2);
+            -webkit-transition: .3s cubic-bezier(0,.25,.3,2);
+            -moz-transition: .3s cubic-bezier(0,.25,.3,2);
+            -o-transition: .3s cubic-bezier(0,.25,.3,2);
+            -ms-transition: .3s cubic-bezier(0,.25,.3,2);
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="item" id="app">
+        <div class="content">
+            <i class="nu-appetizer"></i>
+            <p>App</p>
+        </div>
+    </div>
+    <div class="item" id="main">
+        <div class="content">
+            <i class="nu-main"></i>
+            <p>Main</p>
+        </div>
+    </div>
+    <div class="item" id="dessert">
+        <div class="content">
+            <i class="nu-dessert"></i>
+            <p>Dessert</p>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>

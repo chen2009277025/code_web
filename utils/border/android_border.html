@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, minimal-ui">
+    <title>解决安卓系统下图片border-radius</title>
+    <style>
+        body{
+            margin:0 20px;
+            height: 1600px;
+            background:#fff
+        }
+
+        #edit-with-js-bin {
+            display: none !important;
+        }
+
+        #demo1 div {
+            border: 5px solid #D3B5EB;
+            display: inline-block;
+            vertical-align: middle;
+            padding: 10px;
+            background-color: #117028;
+            color: #eee;
+            text-shadow:1px 1px 0 #333;
+            margin-bottom: 12px;
+
+        }
+
+        .roundcorner1 {
+            border-radius: 16px;
+        }
+
+        .roundcorner2 {
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+            border-bottom-right-radius: 16px;
+            border-bottom-left-radius: 16px;
+        }
+
+        .arccorner1 {
+            border-radius: 30%/16px;
+        }
+
+        .arccorner2 {
+            border-top-left-radius: 30% 16px;
+            border-top-right-radius: 30% 16px ;
+            border-bottom-right-radius: 30% 16px;
+            border-bottom-left-radius: 30% 16px;
+        }
+
+        #demo1 .no-border {
+            border: 0 none;
+        }
+
+        #demo1 .clip {
+            background-clip: padding-box;
+        }
+
+        #demo1 .rgba{
+            border-color:rgba(236, 110, 51, 0.36);
+        }
+
+        #demo2 .list {
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            width: 45%;
+        }
+
+        #demo2 img,
+        #demo2 .roundcorner1{
+            display: inline-block;
+            vertical-align: middle;
+            border-radius: 999px;
+            width: 100px;
+        }
+        #demo3 .shadow1,#demo3 .shadow2{width:200px;height:100px;background-color: #FF3300;color:#ffffff; margin-bottom:20px;border-top-left-radius: 50px;
+            border-top-right-radius:  50px;
+            border-bottom-right-radius: 50px;
+            border-bottom-left-radius: 50px;text-align: center;line-height: 100px;}
+
+        #demo3 .shadow1{border: 1px solid #333333;}
+        #demo3 .shadow2{box-shadow: 0 0 1px 1px #333333;}
+
+        #demo2 .no-boder {
+            border: 6px solid rgba(50, 29, 202, 0.2);
+        }
+
+        #demo2 .roundcorner1 {
+            border: 6px solid rgba(50, 29, 202, 0.2);
+        }
+
+        #demo2 .roundcorner1 img {
+            border: none;
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="demo1">
+    <h2>1. 圆角溢出 Bug</h2>
+    <div class="roundcorner1">圆角缩写</div>
+    <div class="roundcorner2">圆角扩写</div>
+    <div class="arccorner1">弧角缩写</div>
+    <div class="arccorner2">弧角扩写</div>
+    <div class="clip roundcorner2">background-clip</div>
+    <div class="clip roundcorner2 rgba">半透明边框</div>
+    <div class="no-border roundcorner2">没有边框</div>
+</div>
+<div id="demo2">
+    <h2>2. 圆角百分比 Bug</h2>
+    <div class="list">
+        <img class="no-boder" src="../../public/img/2.jpg" alt="" class="roundcorner1">
+        <h3>只有一个img</h3>
+    </div>
+
+    <div class="list">
+
+        <div class="roundcorner1">
+            <img src="../../public/img/2.jpg" alt="" class="roundcorner1">
+        </div>
+        <h3>img外嵌套容器</h3>
+    </div>
+</div>
+<div id="demo3">
+    <h2>3. box-shadow模拟边框</h2>
+    <div class="shadow1">背景色溢出</div><div class="shadow2">背景色不溢出</div></div>
+</body>
+</html>

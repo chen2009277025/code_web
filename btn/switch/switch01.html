@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+
+
+    <title>CSS 开关</title>
+
+
+
+
+    <style>
+        /* Some color definitions */
+        /* Some styling */
+        body {
+            background: #442242;
+            color: white;
+            display: flex;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        sup {
+            color: #AF5D6C;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* Important switch stuff */
+        label {
+            width: 34px;
+            height: 14px;
+            background: lightgray;
+            display: inline-block;
+            border-radius: 10px;
+            position: relative;
+            cursor: pointer;
+            margin: 10px;
+        }
+        label:before, label:after {
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: -3px;
+            left: 0;
+            transition: all .2s;
+        }
+        label:after {
+            box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+        }
+        label:before {
+            background: lightgray;
+            transform: scale3d(0, 0, 1);
+        }
+        label:active:before {
+            transform: scale3d(3, 3, 1);
+            opacity: 0;
+        }
+
+        input[type=checkbox].switch {
+            display: none;
+        }
+        input[type=checkbox].switch:checked + label {
+            background: rgba(3, 155, 229, 0.5);
+        }
+        input[type=checkbox].switch:checked + label:before, input[type=checkbox].switch:checked + label:after {
+            left: 14px;
+            background: #039be5;
+        }
+        input[type=checkbox].switch:disabled + label {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        input[type=checkbox].switch.green {
+            display: none;
+        }
+        input[type=checkbox].switch.green:checked + label {
+            background: rgba(4, 196, 52, 0.5);
+        }
+        input[type=checkbox].switch.green:checked + label:before, input[type=checkbox].switch.green:checked + label:after {
+            background: #04c434;
+        }
+
+        input[type=checkbox].switch.red {
+            display: none;
+        }
+        input[type=checkbox].switch.red:checked + label {
+            background: rgba(244, 67, 54, 0.5);
+        }
+        input[type=checkbox].switch.red:checked + label:before, input[type=checkbox].switch.red:checked + label:after {
+            background: #f44336;
+        }
+
+    </style>
+
+
+
+</head>
+
+<body>
+
+<h2 class="text-center">CSS Switches<br><sup>#nojs</sup></h2>
+
+<div class="text-center">
+    <input type="checkbox" id="switch1" class='switch' checked/>
+    <label for="switch1"></label>
+
+    <input type="checkbox" id="switch2" class='switch red' checked/>
+    <label for="switch2"></label>
+
+    <input type="checkbox" id="switch3" class='switch green' checked/>
+    <label for="switch3"></label>
+
+    <input type="checkbox" id="switch4" class='switch green' disabled/>
+    <label for="switch4"></label>
+</div>
+
+
+</body>
+</html>
+ 

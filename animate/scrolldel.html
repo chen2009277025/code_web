@@ -1,0 +1,211 @@
+
+
+
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="email=no" name="format-detection" /><!--禁止Android中自动识别页面中的邮件地址-->
+
+    <title>html5 滑动删除 Swipe to delete/save</title>
+    <script src="../public/js/modernizr.js" type="text/javascript"></script>
+
+
+
+    <link rel="stylesheet" href="normalize.css">
+
+
+
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            background-image: -webkit-linear-gradient(left top, #606c88, #3f4c6b);
+        }
+
+        .container {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            padding: 24px;
+            background: rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        .swipeable {
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 10px;
+            vertical-align: bottom;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            background: #999;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .swipeable:last-child {
+            margin: 0;
+        }
+        .swipeable .inner {
+            position: relative;
+            z-index: 2;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            background: #F7F7F7;
+            padding: 5px 24px 5px 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            cursor: -webkit-grab;
+            cursor: grab;
+            font-size: 12px;
+            color: #555;
+        }
+        .swipeable .inner:active {
+            cursor: -webkit-grabbing;
+            cursor: grabbing;
+        }
+        .swipeable .action-button {
+            position: absolute;
+            z-index: 1;
+            right: 0;
+            top: 0;
+            width: 100%;
+            padding: 24px 20px 24px 0;
+            cursor: pointer;
+            text-align: right;
+            color: white;
+            letter-spacing: 2px;
+            font-size: 12px;
+            -webkit-transition: .3s ease;
+            transition: .3s ease;
+        }
+        .swipeable .action-button.delete {
+            background: #d64d4d;
+        }
+        .swipeable .action-button.delete:hover {
+            background: #c32d2d;
+        }
+        .swipeable .action-button.save {
+            background: #74cb74;
+        }
+        .swipeable .action-button.save:hover {
+            background: #4fbd4f;
+        }
+        .swipeable .tab-icon, .swipeable .tab-icon:before, .swipeable .tab-icon:after {
+            background: #666;
+        }
+        .swipeable .tab-icon {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            margin-top: -1px;
+            margin-right: 1px;
+            width: 2px;
+            height: 2px;
+        }
+        .swipeable .tab-icon:before, .swipeable .tab-icon:after {
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+        .swipeable .tab-icon:before {
+            top: -4px;
+        }
+        .swipeable .tab-icon:after {
+            top: 4px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<article class="swipeable">
+    <div class="inner">
+        <p>滑动删除</p>
+        <div class="tab-icon"></div>
+    </div>
+    <div class="action-button delete">
+        <span class="text">Delete</span>
+    </div>
+</article>
+
+<article class="swipeable">
+    <div class="inner">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, officia.</p>
+        <div class="tab-icon"></div>
+    </div>
+    <div class="action-button save">
+        <span class="text">Save</span>
+    </div>
+</article>
+
+<article class="swipeable">
+    <div class="inner">
+        <p>滑动删除</p>
+        <div class="tab-icon"></div>
+    </div>
+    <div class="action-button delete">
+        <span class="text">Delete</span>
+    </div>
+</article>
+
+<article class="swipeable">
+    <div class="inner">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, officia.</p>
+        <div class="tab-icon"></div>
+    </div>
+    <div class="action-button save">
+        <span class="text">Save</span>
+    </div>
+</article>
+
+
+
+
+
+
+<script src='../public/js/jquery.min.js'></script>
+<script src='../public/js/snap.min.js'></script>
+
+<script>
+    $(function () {
+        $('.swipeable .inner').each(function (e) {
+            var snapper = new Snap({
+                element: this,
+                maxPosition: 100,
+                minPosition: -100,
+                disable: 'left'
+            });
+        });
+        $('.delete').on('click', function (e) {
+            $(this).parent().slideToggle(100);
+        });
+    });
+    //@ sourceURL=pen.js
+</script>
+
+
+<script>
+    if (document.location.search.match(/type=embed/gi)) {
+        window.parent.postMessage("resize", "*");
+    }
+</script>
+
+
+
+</body>
+</html>
+ 
