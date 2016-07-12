@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>绽放的烟花</title>
+
+    <style>
+        body {
+            background: black;
+        }
+
+        .wrapper {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform-origin: 0% 0%;
+            -ms-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+        }
+
+        .wrapper:nth-child(2) {
+            -webkit-transform: rotate(18deg);
+            -ms-transform: rotate(18deg);
+            transform: rotate(18deg)
+        }
+
+        .line {
+            position: absolute;
+            border-top: 1px solid white;
+            --width: 300px;
+            -webkit-animation-name: ray;
+            animation-name: ray;
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+            --animation-direction: alternate;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+        }
+
+        .line:nth-child(2) {
+            -webkit-animation-delay: 1000ms;
+            animation-delay: 1000ms;
+        }
+
+        .ray {
+            position: relative;
+            width: 200px;
+            height: 0px;
+            -webkit-transform-origin: 0% 0%;
+            -ms-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+        }
+
+        .ray:nth-child(2) {
+            -webkit-transform: rotate(36deg);
+            -ms-transform: rotate(36deg);
+            transform: rotate(36deg);
+        }
+
+        .ray:nth-child(3) {
+            -webkit-transform: rotate(72deg);
+            -ms-transform: rotate(72deg);
+            transform: rotate(72deg);
+        }
+
+        .ray:nth-child(4) {
+            -webkit-transform: rotate(108deg);
+            -ms-transform: rotate(108deg);
+            transform: rotate(108deg);
+        }
+
+        .ray:nth-child(5) {
+            -webkit-transform: rotate(144deg);
+            -ms-transform: rotate(144deg);
+            transform: rotate(144deg);
+        }
+
+        .ray:nth-child(6) {
+            -webkit-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+
+        .ray:nth-child(7) {
+            -webkit-transform: rotate(216deg);
+            -ms-transform: rotate(216deg);
+            transform: rotate(216deg);
+        }
+
+        .ray:nth-child(8) {
+            -webkit-transform: rotate(252deg);
+            -ms-transform: rotate(252deg);
+            transform: rotate(252deg);
+        }
+
+        .ray:nth-child(9) {
+            -webkit-transform: rotate(288deg);
+            -ms-transform: rotate(288deg);
+            transform: rotate(288deg);
+        }
+
+        .ray:nth-child(10) {
+            -webkit-transform: rotate(324deg);
+            -ms-transform: rotate(324deg);
+            transform: rotate(324deg);
+        }
+
+        @-webkit-keyframes ray {
+            0% {
+                left: 10%;
+                width: 10%;
+            }
+            100% {
+                left: 150%;
+                width: 100%;
+            }
+        }
+
+        @keyframes ray {
+            0% {
+                left: 10%;
+                width: 10%;
+            }
+            100% {
+                left: 150%;
+                width: 100%;
+            }
+        }
+    </style>
+
+    <script>
+        window.console = window.console || function(t) {};
+        window.open = function(){ console.log('window.open is disabled.'); };
+        window.print = function(){ console.log('window.print is disabled.'); };
+        // Support hover state for mobile.
+        if (false) {
+            window.ontouchstart = function(){};
+        }
+    </script>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="ray">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</div>
+
+<script>
+    if (document.location.search.match(/type=embed/gi)) {
+        window.parent.postMessage('resize', "*");
+    }
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html><html class=''>
+<head>
+    <title>checkbox切换开关按钮</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="email=no" name="format-detection" /><!--禁止Android中自动识别页面中的邮件地址-->
+
+    <style class="cp-pen-styles">body {
+        background: #333;
+    }
+    .lbl {
+        position: relative;
+        display: block;
+        height: 20px;
+        width: 44px;
+        background: #898989;
+        border-radius: 100px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .lbl:after {
+        position: absolute;
+        left: -2px;
+        top: -3px;
+        display: block;
+        width: 26px;
+        height: 26px;
+        border-radius: 100px;
+        background: #fff;
+        box-shadow: 0px 3px 3px rgba(0,0,0,0.05);
+        content: '';
+        transition: all 0.3s ease;
+    }
+    .lbl:active:after {
+        transform: scale(1.15, 0.85);
+    }
+    .cbx:checked ~ label {
+        background: #6fbeb5;
+    }
+    .cbx:checked ~ label:after {
+        left: 20px;
+        background: #179588;
+    }
+    .cbx:disabled ~ label {
+        background: #d5d5d5;
+        pointer-events: none;
+    }
+    .cbx:disabled ~ label:after {
+        background: #bcbdbc;
+    }
+    .cntr {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .press {
+        margin-bottom: 40px;
+    }
+    .hidden {
+        display: none;
+    }
+    </style></head><body>
+<div class="cntr">
+    <div class="row press">
+        <input type="checkbox" id="unchecked" class="cbx hidden"/>
+        <label for="unchecked" class="lbl"></label>
+    </div>
+    <div class="row press">
+        <input type="checkbox" id="checked" class="cbx hidden" checked/>
+        <label for="checked" class="lbl"></label>
+    </div>
+    <div class="row">
+        <input type="checkbox" id="unchecked_disabled" class="cbx hidden" disabled/>
+        <label for="unchecked_disabled" class="lbl"></label>
+    </div>
+</div>
+
+</body></html>
