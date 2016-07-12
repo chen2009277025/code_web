@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<title>显示列表滑动效果</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta content="email=no" name="format-detection" /><!--禁止Android中自动识别页面中的邮件地址-->
+<html class=''>
+<head>
+
+    <style class="cp-pen-styles">* {
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        background: linear-gradient(to right, #47cf73, #47CFA3);
+        height: 100vh;
+        font-family: 'Relaway', sans-serif;
+        text-align: center;
+    }
+
+    .clearfix:before,
+    .clearfix:after {
+        content: "";
+        display: table;
+    }
+
+    .clearfix:after {
+        clear: both;
+    }
+
+    ul {
+        width: 100%;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .container {
+        max-width: 968px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .item.item-1 {
+        animation-delay: 0.09091s;
+    }
+
+    .item.item-2 {
+        animation-delay: 0.18182s;
+    }
+
+    .item.item-3 {
+        animation-delay: 0.27273s;
+    }
+
+    .item.item-4 {
+        animation-delay: 0.36364s;
+    }
+
+    .item.item-5 {
+        animation-delay: 0.45455s;
+    }
+
+    .item.item-6 {
+        animation-delay: 0.54545s;
+    }
+
+    .item.item-7 {
+        animation-delay: 0.63636s;
+    }
+
+    .item.item-8 {
+        animation-delay: 0.72727s;
+    }
+
+    .item.item-9 {
+        animation-delay: 0.81818s;
+    }
+
+    .item.item-10 {
+        animation-delay: 0.90909s;
+    }
+
+    .item.item-11 {
+        animation-delay: 1s;
+    }
+
+    @-webkit-keyframes slide-item {
+        60% {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            visibility: visible;
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+    }
+    @keyframes slide-item {
+        60% {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            visibility: visible;
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+    }
+    .item {
+        min-width: 25%;
+        float: left;
+        padding: 0 12.5px;
+        margin-top: 25px;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(250px);
+        -webkit-animation: slide-item .3s ease forwards;
+        animation: slide-item .3s ease forwards;
+    }
+
+    .box-item {
+        width: 100%;
+        min-height: 170px;
+        display: inline-block;
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15);
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 13px;
+        color: #f4f4f4;
+        -webkit-transition: all 0.17s cubic-bezier(0.4, 0, 1, 1);
+        -ms-transition: all 0.17s cubic-bezier(0.4, 0, 1, 1);
+        transition: all 0.17s cubic-bezier(0.4, 0, 1, 1);
+    }
+    .box-item:hover {
+        box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .refresh {
+        padding: 10px 30px;
+        background: rgba(255, 255, 255, 0.14);
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+        margin-top: 30px;
+        color: #fff;
+        font-weight: 200;
+        opacity: 0;
+        animation: fade 0.2s ease forwards;
+        animation-delay: 1.1s;
+    }
+
+    @-webkit-keyframes fade {
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes fade {
+        100% {
+            opacity: 1;
+        }
+    }
+    </style></head><body>
+
+<div class="container clearfix">
+    <ul class="clearfix">
+        <li class="item item-1">
+            <div class="box-item">:D</div>
+        </li>
+        <li class="item item-2">
+            <div class="box-item">:D</div>
+        </li>
+        <li class="item item-3">
+            <div class="box-item">:D</div>
+        </li>
+        <li class="item item-4">
+            <div class="box-item">:D</div>
+        </li>
+        <li class="item item-5">
+            <div class="box-item">:D</div>
+        </li>
+        <li class="item item-6">
+            <div class="box-item">:D</div>
+        </li>
+        <li class="item item-7">
+            <div class="box-item">:D</div>
+        </li>
+        <li class="item item-8">
+            <div class="box-item">:D</div>
+        </li>
+        <li class="item item-9">
+            <div class="box-item">:D</div>
+        </li>
+        <li class="item item-10">
+            <div class="box-item">:D</div>
+        </li>
+        <li class="item item-11">
+            <div class="box-item">:D</div>
+        </li>
+    </ul><a href="" class="refresh">refresh</a>
+</div>
+</body></html>
