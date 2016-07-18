@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+
+
+    <title>CSS菱形网导航</title>
+
+
+    <style>
+        body {
+            margin: 0;
+            background: #333;
+        }
+
+        #purecontainer {
+            background: #222;
+            position: relative;
+            padding-top: 68%;
+            background-size: cover;
+            overflow: hidden;
+        }
+        #purecontainer a {
+            display: inline-block;
+            position: absolute;
+            width: 33%;
+            height: 48.4%;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+            top: 0;
+            overflow: hidden;
+            opacity: 0.5;
+            -webkit-transition: .6s opacity;
+            transition: .6s opacity;
+            color: #fff;
+            font-family: Avenir, sans-serif;
+            text-transform: uppercase;
+            letter-spacing: .2rem;
+            font-size: .5rem;
+            text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+        }
+        #purecontainer a:hover, #purecontainer a .highlighted {
+            opacity: 1;
+        }
+        #purecontainer a img {
+            width: 100%;
+            -webkit-transform: rotate(-45deg) scale(1.4);
+            -ms-transform: rotate(-45deg) scale(1.4);
+            transform: rotate(-45deg) scale(1.4);
+        }
+        #purecontainer a span {
+            display: inline-block;
+            -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+            position: relative;
+            z-index: 5;
+            text-align: center;
+            width: 100%;
+            left: 25%;
+            top: -36%;
+            font-size: 2rem;
+        }
+
+        a#woman {
+            margin-top: 3.2%;
+            left: 34.4%;
+        }
+
+        a#man {
+            margin-top: 26.4%;
+            left: 11%;
+        }
+
+        a#child {
+            left: 57.8%;
+            margin-top: 26.5%;
+        }
+
+        @media all and (max-width: 800px) {
+            #purecontainer a span {
+                font-size: 1.5rem;
+            }
+        }
+        @media all and (max-width: 600px) {
+            #purecontainer a span {
+                font-size: 1rem;
+            }
+        }
+        @media all and (min-width: 1500px) {
+            #purecontainer {
+                background: url(../public/img/2.jpg);
+                background-size: cover;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div id="purecontainer">
+    <a href="#" id="woman"><img src="../public/img/2.jpg" alt><span>Women</span></a>
+    <a href="#" id="man"><img src="../public/img/2.jpg" alt><span>Men</span></a>
+    <a href="#" id="child"><img src="../public/img/2.jpg" alt><span>Children</span></a>
+</div>
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+    <title>input/label美化</title>
+    <style>
+        label {
+            display:inline-block;
+            color:tomato
+        }
+        label:before {
+            content:'✗';
+            border:solid;
+            border-radius:3px;
+            padding: 0 0.15em;
+        }
+        input:checked + label {
+            color:turquoise;
+        }
+        input:checked + label:before {
+            content:'✓';
+        }
+        /* hide hecbox */
+        [type="checkbox"] {
+            position:fixed;
+            left:-9999px;
+        }
+    </style>
+</head>
+
+<body>
+
+<p>
+    <input type="checkbox" id="ckckbx"/>
+    <label for ="ckckbx"> lorem</label>
+</p>
+<p>
+    <input type="checkbox" id="ckckbx1"/>
+    <label for ="ckckbx1"> ipsum</label>
+</p>
+<p>
+    <input type="checkbox" id="ckckbx2"/>
+    <label for ="ckckbx2"> lorem</label>
+</p>
+<p>
+    <input type="checkbox" id="ckckbx3"/>
+    <label for ="ckckbx3"> ipsum</label>
+</p>
+<p>
+    <input type="checkbox" id="ckckbx4"/>
+    <label for ="ckckbx4"> lorem</label>
+</p>
+
+
+</body>
+</html>
+

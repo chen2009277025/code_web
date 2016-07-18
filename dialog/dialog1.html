@@ -1,0 +1,123 @@
+<!DOCTYPE html><html class=''>
+<head>
+    <title>仿ios弹出警告效果（高度自适应）</title>
+    <meta charset='UTF-8'>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="email=no" name="format-detection" /><!--禁止Android中自动识别页面中的邮件地址-->
+
+    <meta name="robots" content="noindex">
+    <style class="cp-pen-styles">
+        *{ margin:0px; padding:0px;}
+        *,
+        ::before,
+        ::after {
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+        }
+        .modal {
+            display: inline-block;
+            max-width: 400px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 5px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            -webkit-animation: zoomIn 1s .3;
+            animation: zoomIn 1s .3;
+            color: #222;
+        }
+        .modal__outer {
+            display: table;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.53);
+        }
+        .modal__inner {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            padding: 20px;
+        }
+        .modal h3 {
+            margin-bottom: 5px;
+            color: black;
+        }
+        .modal p {
+            margin-top: 10px;
+        }
+        .modal__content {
+            padding: 50px 10px;
+        }
+        .modal__footer {
+            border-top: 1px solid #ccc;
+            overflow: hidden;
+        }
+        .modal__footer button {
+            float: left;
+            width: 50%;
+            border: none;
+            background: transparent;
+            padding: 10px;
+            border-left: 1px solid rgba(0, 0, 0, 0.1);
+            color: #0C6AFF;
+        }
+        .modal__footer button:first-child {
+            border-left: none;
+            border-bottom-left-radius: 5px;
+        }
+        .modal__footer button:last-child {
+            border-bottom-right-radius: 5px;
+        }
+        .modal__footer button:active {
+            background: rgba(0, 0, 0, 0.05);
+        }
+        .modal__footer button:focus {
+            outline: none;
+        }
+        /*
+        @-webkit-keyframes zoomIn {
+          0% {
+            opacity: 0;
+            -webkit-transform: scale3d(1.2, 1.2, 1.2);
+                    transform: scale3d(1.2, 1.2, 1.2);
+          }
+          100% {
+            opacity: 1;
+            -webkit-transform: scale3d(1, 1, 1);
+                    transform: scale3d(1, 1, 1);
+          }
+        }
+        @keyframes zoomIn {
+          0% {
+            opacity: 0;
+            -webkit-transform: scale3d(1.2, 1.2, 1.2);
+                    transform: scale3d(1.2, 1.2, 1.2);
+          }
+          100% {
+            opacity: 1;
+            -webkit-transform: scale3d(1, 1, 1);
+                    transform: scale3d(1, 1, 1);
+          }
+        }
+        */
+    </style></head><body>
+
+<div class="modal__outer">
+    <div class="modal__inner">
+        <div class="modal">
+            <div class="modal__content">
+                <h3>Hello World</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis illo dolorum repudiandae ad nulla nihil.</p>
+            </div>
+            <div class="modal__footer">
+                <button>Cancel</button>
+                <button>Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body></html>

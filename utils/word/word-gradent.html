@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+    <style>文字渐变效果</style>
+    <style>
+        body {
+            background: #04161f;
+            font-family: "Lato", sans-serif;
+            margin: 3em auto;
+            max-width: 50em;
+        }
+
+        .gradient1 {
+            display: inline-block;
+            font-size: 96px;
+            margin: 0;
+            opacity: 0.9;
+            background: white;
+            color: black;
+            position: relative;
+            text-shadow: 1px 1px 0px #04161f, 1px -1px 0px #04161f, -1px -1px 0px #04161f, -1px 1px 0px #04161f;
+        }
+        .gradient1::before, .gradient1::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+        .gradient1::before {
+            background: -webkit-linear-gradient(left, #23966c, #faaa54, #e23b4a, #db0768, #360670);
+            background: linear-gradient(to right, #23966c, #faaa54, #e23b4a, #db0768, #360670);
+            content: '';
+            display: block;
+            mix-blend-mode: screen;
+        }
+        .gradient1::after {
+            content: "CSS Gradient Text";
+            background: #04161f;
+            color: white;
+            mix-blend-mode: multiply;
+        }
+
+        .gradient2 {
+            text-align: center;
+            margin: 1em auto;
+            width: 10em;
+            background: white;
+            color: black;
+            position: relative;
+            text-shadow: 1px 1px 0px #04161f, 1px -1px 0px #04161f, -1px -1px 0px #04161f, -1px 1px 0px #04161f;
+        }
+        .gradient2::before, .gradient2::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+        .gradient2::before {
+            background: -webkit-radial-gradient(circle, #23966c, #faaa54, #e23b4a, #db0768, #360670);
+            background: radial-gradient(circle, #23966c, #faaa54, #e23b4a, #db0768, #360670);
+            content: '';
+            display: block;
+            mix-blend-mode: screen;
+        }
+        .gradient2::after {
+            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, aut.";
+            background: #04161f;
+            color: white;
+            mix-blend-mode: multiply;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+<h1 class="gradient1">CSS Gradient Text</h1>
+
+<p class="gradient2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, aut.</p>
+
+
+</body>
+</html>

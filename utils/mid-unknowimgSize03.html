@@ -1,0 +1,31 @@
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=8" http-equiv="X-UA-Compatible"/>
+    <title>司徒正美 CSS垂直居中</title>
+    <style type="text/css">
+        .container{
+            /*IE8与标准游览器垂直对齐*/
+            display: table-cell;
+            vertical-align:middle;
+            width:500px;/*装饰*/
+            height:500px;
+            background:#B9D6FF;
+            border: 1px solid #CCC;
+        }
+        .container img{
+            display:block;/*让其具备盒子模型*/
+            margin:0 auto;
+            text-align:center;
+            margin-top:expression((500 - this.height )/2);/*让IE567垂直对齐 */
+        }
+    </style>
+</head>
+<body>
+<h1>垂直居中（CSS表达式）</h1>
+<div class="container">
+    <img src="../piblic/img/1.jpg" />
+</div>
+</body>
+</html> 

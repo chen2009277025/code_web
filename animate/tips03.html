@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>上下左右缓动出现提示</title>
+</head>
+
+<style class="cp-pen-styles">
+    /*===General=== */
+    .yuan{
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+
+    }
+    .obj-anima {
+        margin: 100px 55px 100px 30px;
+        float: left;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .obj-anima:last-child {
+        margin: 100px 0 100px 30px;
+    }
+
+    .b1 {
+        width: 50px;
+        height: 50px;
+        background: green;
+        opacity: 0.8;
+        z-index: 1;
+        position: relative;
+    }
+
+    .b2 {
+        position: absolute;
+        background: red;
+        color: white;
+        text-align: center;
+        font-size: 11px;
+        -moz-transition: 0.3s ease;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+    }
+
+
+
+    /*=== Tooltip Right === */
+
+    .tool-right .b2 {
+        width: 50px;
+        height: 70px;
+        right: -80px;
+        top: 15px;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .tool-right:hover .b2 {
+        right: -60px;
+        visibility: visible;
+        opacity: 1;
+    }
+
+
+    /*=== Tooltip Top === */
+
+    .tool-up .b2 {
+        width: 70px;
+        height: 50px;
+        top: -80px;
+        left: 15px;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .tool-up:hover .b2 {
+        top: -60px;
+        visibility: visible;
+        opacity: 1;
+    }
+
+
+    /*=== Tooltip Bottom === */
+
+    .tool-down .b2 {
+        width: 70px;
+        height: 50px;
+        bottom: -80px;
+        left: 15px;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .tool-down:hover .b2 {
+        bottom: -60px;
+        visibility: visible;
+        opacity: 1;
+    }
+
+
+    /*=== Tooltip Left === */
+
+    .tool-left .b2 {
+        width: 50px;
+        height: 70px;
+        left: -80px;
+        top: 15px;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .tool-left:hover .b2 {
+        left: -60px;
+        visibility: visible;
+        opacity: 1;
+    }</style>
+
+<body>
+<div class="obj-anima tool-right">
+    <div class="b1 yuan"></div>
+    <div class="b2">Tooltip Right</div>
+</div>
+
+<div class="obj-anima tool-up">
+    <div class="b1 yuan"></div>
+    <div class="b2">Tooltip Top</div>
+</div>
+
+<div class="obj-anima tool-down">
+    <div class="b1 yuan"></div>
+    <div class="b2">Tooltip Bottom</div>
+</div>
+
+<div class="obj-anima tool-left">
+    <div class="b1 yuan"></div>
+    <div class="b2">Tooltip Left</div>
+</div>
+
+</body>
+</html>

@@ -2,6 +2,125 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb67660-2cde-4e63-9108-39d42dc9cb29" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/font_1433757735_1585197 (1).eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/font_1433757735_1585197.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/font_1433757735_1585197.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/font_1433757735_1585197.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/Nike-Free-30-Womens-Running-Shoe-511495_600_A.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/asd23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/inner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/sdy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/shake.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/180_3d.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/404-02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/caipiao.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/downarrow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/hover01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/input.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/link01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/link02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/loadding/loadding05.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/scroll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/seachAnimate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/searching.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/snowfall.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/starburst.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/tips.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/tips02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/tips03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/tips04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/tips05.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/tips06.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/tips07.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/btn03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/btn04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/btn05.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/btn06.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/btn07.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/btn08.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/button09.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/checkbox02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/checkbox03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/checkbox04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/hover/hover03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/hover/hover04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/menuBtn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/radio01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/switch/switch06.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/switch/switch07.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dialog/dialog01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dialog/dialog1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/menu16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/menu17.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/menu18.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/menu19.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nav/nav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/mdialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/mobiscroll.android-ics-2.5.2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/mobiscroll.animation-2.5.2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/mobiscroll.core-2.5.2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/myDialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/shake.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/split.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/font_1433757735_1585197.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/fastclick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/howler.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.easing.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/mdialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/mobiscroll.android-ics-2.5.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/mobiscroll.core-2.5.2-zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/mobiscroll.core-2.5.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/mobiscroll.datetime-2.5.1-zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/mobiscroll.datetime-2.5.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/myDialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/shake.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/split.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/stopExecutionOnTimeout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/zepto.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tab/tab02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/autoResize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/border/juchi.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/connectBook.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/double11tianmao.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/fullScreen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/fullScreen02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/hover/hover06.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/hover/hover07.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/hover/icon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/img.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/img_animation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/imgfilter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/ios-mobile-develop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/iosDatePicker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/layout02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unknowimgSize02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unknowimgSize03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unknowimgsize05.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unkonwimgSize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unkonwimgSize01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unkownimgsize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unkownimgsize04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unkownimgzise.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mobile-meta.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/regist_login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/scrollTopSearchBar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/setpinput.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/split.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/valid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/word/3dword.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/word/WordShowdown.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/word/backImg.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/word/border.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/word/mark.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/word/word-gradent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/wxshack.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/youhuiquan.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="code_download.iws" />
@@ -23,41 +142,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sliderbar02.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/btn/sliderbar/sliderbar02.html">
+      <file leaf-file-name="checkbox04.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/btn/checkbox04.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2370">
-              <caret line="158" column="7" selection-start-line="158" selection-start-column="7" selection-end-line="158" selection-end-column="7" />
+            <state relative-caret-position="-5942">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hover02.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/btn/hover/hover02.html">
+      <file leaf-file-name="switch07.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/btn/switch/switch07.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="87" column="7" selection-start-line="87" selection-start-column="7" selection-end-line="87" selection-end-column="7" />
+            <state relative-caret-position="390">
+              <caret line="26" column="4" selection-start-line="6" selection-start-column="11" selection-end-line="26" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="btn02.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/btn/btn02.html">
+      <file leaf-file-name="mark.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/word/mark.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="292" column="16" selection-start-line="292" selection-start-column="16" selection-end-line="292" selection-end-column="16" />
+            <state relative-caret-position="1200">
+              <caret line="80" column="51" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="hover07.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/hover/hover07.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="26">
+              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -68,6 +187,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -78,57 +198,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/animate/copytecentGas.html" />
-        <option value="$PROJECT_DIR$/menu/menu03.html" />
-        <option value="$PROJECT_DIR$/menu/menu04.html" />
-        <option value="$PROJECT_DIR$/menu/menu05.html" />
-        <option value="$PROJECT_DIR$/animate/scrolldel.html" />
-        <option value="$PROJECT_DIR$/animate/loadding02.html" />
-        <option value="$PROJECT_DIR$/utils/hover/hover05.html" />
-        <option value="$PROJECT_DIR$/utils/border/android_border.html" />
-        <option value="$PROJECT_DIR$/animate/loadding/loadding03.html" />
-        <option value="$PROJECT_DIR$/btn/switch01.html" />
-        <option value="$PROJECT_DIR$/btn/switch/switch03.html" />
-        <option value="$PROJECT_DIR$/menu/menu06.html" />
-        <option value="$PROJECT_DIR$/menu/menu07.html" />
-        <option value="$PROJECT_DIR$/utils/scroll/scroll02.html" />
-        <option value="$PROJECT_DIR$/utils/border/border.html" />
-        <option value="$PROJECT_DIR$/menu/menu08.html" />
-        <option value="$PROJECT_DIR$/menu/menu09.html" />
-        <option value="$PROJECT_DIR$/menu/menu10.html" />
-        <option value="$PROJECT_DIR$/menu/menu11.html" />
-        <option value="$PROJECT_DIR$/btn/switch/switch004.html" />
-        <option value="$PROJECT_DIR$/btn/switch/switch04.html" />
-        <option value="$PROJECT_DIR$/tab/tab.html" />
-        <option value="$PROJECT_DIR$/input/input.html" />
-        <option value="$PROJECT_DIR$/menu/menu12.html" />
-        <option value="$PROJECT_DIR$/btn/switch/switch05.html" />
-        <option value="$PROJECT_DIR$/animate/loadding/loadding04.html" />
-        <option value="$PROJECT_DIR$/menu/menu13.html" />
-        <option value="$PROJECT_DIR$/utils/scroll/scroll03.html" />
-        <option value="$PROJECT_DIR$/animate/taiji.html" />
-        <option value="$PROJECT_DIR$/utils/select.html" />
-        <option value="$PROJECT_DIR$/animate/planet.html" />
-        <option value="$PROJECT_DIR$/utils/ment.html" />
-        <option value="$PROJECT_DIR$/utils/meta.html" />
-        <option value="$PROJECT_DIR$/utils/horizon-mid.html" />
-        <option value="$PROJECT_DIR$/animate/lighting.html" />
-        <option value="$PROJECT_DIR$/utils/vedio-mid.html" />
-        <option value="$PROJECT_DIR$/utils/ellipsis01.html" />
-        <option value="$PROJECT_DIR$/animate/slideshow.html" />
-        <option value="$PROJECT_DIR$/utils/datepicker.html" />
-        <option value="$PROJECT_DIR$/menu/menu14.html" />
-        <option value="$PROJECT_DIR$/animate/slidershow01.html" />
-        <option value="$PROJECT_DIR$/animate/flower.html" />
-        <option value="$PROJECT_DIR$/btn/checkbox01.html" />
-        <option value="$PROJECT_DIR$/animate/modal.html" />
-        <option value="$PROJECT_DIR$/menu/menu15.html" />
-        <option value="$PROJECT_DIR$/tab/tab01.html" />
-        <option value="$PROJECT_DIR$/utils/toplevel.html" />
-        <option value="$PROJECT_DIR$/btn/btn01.html" />
-        <option value="$PROJECT_DIR$/btn/sliderbar/sliderbar02.html" />
-        <option value="$PROJECT_DIR$/btn/hover/hover02.html" />
-        <option value="$PROJECT_DIR$/btn/btn02.html" />
+        <option value="$PROJECT_DIR$/utils/mid-unknowimgsize05.html" />
+        <option value="$PROJECT_DIR$/utils/wxshack.html" />
+        <option value="$PROJECT_DIR$/utils/double11tianmao.html" />
+        <option value="$PROJECT_DIR$/dialog/dialod01.html" />
+        <option value="$PROJECT_DIR$/dialog/dialog01.html" />
+        <option value="$PROJECT_DIR$/utils/layout.html" />
+        <option value="$PROJECT_DIR$/utils/layout02.html" />
+        <option value="$PROJECT_DIR$/utils/connectBook.html" />
+        <option value="$PROJECT_DIR$/btn/btn06.html" />
+        <option value="$PROJECT_DIR$/btn/btn07.html" />
+        <option value="$PROJECT_DIR$/aa.html" />
+        <option value="$PROJECT_DIR$/animate/input.html" />
+        <option value="$PROJECT_DIR$/animate/downarrow.html" />
+        <option value="$PROJECT_DIR$/animate/tips.html" />
+        <option value="$PROJECT_DIR$/animate/tips02.html" />
+        <option value="$PROJECT_DIR$/animate/tips03.html" />
+        <option value="$PROJECT_DIR$/animate/tips04.html" />
+        <option value="$PROJECT_DIR$/animate/tips05.html" />
+        <option value="$PROJECT_DIR$/animate/tips06.html" />
+        <option value="$PROJECT_DIR$/animate/tips07.html" />
+        <option value="$PROJECT_DIR$/utils/imgfilter.html" />
+        <option value="$PROJECT_DIR$/utils/setpinput.html" />
+        <option value="$PROJECT_DIR$/utils/regist_login.html" />
+        <option value="$PROJECT_DIR$/animate/180_3d.html" />
+        <option value="$PROJECT_DIR$/utils/mobile-meta.html" />
+        <option value="$PROJECT_DIR$/animate/loadding/loadding05.html" />
+        <option value="$PROJECT_DIR$/btn/hover/hover03.html" />
+        <option value="$PROJECT_DIR$/animate/searching.html" />
+        <option value="$PROJECT_DIR$/menu/menu18.html" />
+        <option value="$PROJECT_DIR$/btn/btn08.html" />
+        <option value="$PROJECT_DIR$/btn/hover/hover04.html" />
+        <option value="$PROJECT_DIR$/nav/nav.html" />
+        <option value="$PROJECT_DIR$/animate/hover01.html" />
+        <option value="$PROJECT_DIR$/utils/word/word-gradent.html" />
+        <option value="$PROJECT_DIR$/utils/word/WordShowdown.html" />
+        <option value="$PROJECT_DIR$/btn/hover/button09.html" />
+        <option value="$PROJECT_DIR$/btn/button09.html" />
+        <option value="$PROJECT_DIR$/animate/404-02.html" />
+        <option value="$PROJECT_DIR$/animate/scroll.html" />
+        <option value="$PROJECT_DIR$/utils/valid.html" />
+        <option value="$PROJECT_DIR$/btn/checkbox03.html" />
+        <option value="$PROJECT_DIR$/btn/radio01.html" />
+        <option value="$PROJECT_DIR$/utils/img.html" />
+        <option value="$PROJECT_DIR$/menu/menu19.html" />
+        <option value="$PROJECT_DIR$/utils/hover/icon.html" />
+        <option value="$PROJECT_DIR$/animate/link01.html" />
+        <option value="$PROJECT_DIR$/animate/link02.html" />
+        <option value="$PROJECT_DIR$/btn/checkbox04.html" />
+        <option value="$PROJECT_DIR$/btn/switch/switch07.html" />
+        <option value="$PROJECT_DIR$/utils/word/mark.html" />
+        <option value="$PROJECT_DIR$/utils/hover/hover07.html" />
       </list>
     </option>
   </component>
@@ -139,9 +259,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
+    <option name="x" value="28" />
     <option name="y" value="23" />
-    <option name="width" value="1397" />
+    <option name="width" value="1412" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -197,7 +317,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="btn" />
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -211,11 +331,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="btn" />
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hover" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code_download" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code_download" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code_download" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code_download" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -230,36 +382,37 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/btn" />
+      <recent name="$PROJECT_DIR$/public/css" />
       <recent name="$PROJECT_DIR$/btn/hover" />
       <recent name="$PROJECT_DIR$/btn/switch" />
       <recent name="$PROJECT_DIR$/animate/loadding" />
-      <recent name="$PROJECT_DIR$/btn/sliderbar" />
-      <recent name="$PROJECT_DIR$/utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/js" />
-      <recent name="$PROJECT_DIR$/public/css" />
-      <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/public/font" />
+      <recent name="$PROJECT_DIR$/public/img" />
+      <recent name="$PROJECT_DIR$/public/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.slidershow01.html">
-    <configuration default="false" name="input.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/code_download/input/input.html">
+  <component name="RunManager" selected="JavaScript Debug.mark.html">
+    <configuration default="false" name="img.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/code_download/utils/img.html">
       <method />
     </configuration>
-    <configuration default="false" name="menu12.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/code_download/menu/menu12.html">
+    <configuration default="false" name="menu19.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/code_download/menu/menu19.html">
       <method />
     </configuration>
-    <configuration default="false" name="loadding04.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/code_download/animate/loadding/loadding04.html">
+    <configuration default="false" name="checkbox04.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/code_download/btn/checkbox04.html">
       <method />
     </configuration>
-    <configuration default="false" name="slideshow.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/code_download/animate/slideshow.html">
+    <configuration default="false" name="switch07.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/code_download/btn/switch/switch07.html">
       <method />
     </configuration>
-    <configuration default="false" name="slidershow01.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/code_download/animate/slidershow01.html">
+    <configuration default="false" name="mark.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/code_download/utils/word/mark.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -316,19 +469,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.input.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.menu12.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.loadding04.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.slideshow.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.slidershow01.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.img.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.menu19.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.checkbox04.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.switch07.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.mark.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.slidershow01.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.slideshow.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.loadding04.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.menu12.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.input.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.mark.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.switch07.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.checkbox04.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.menu19.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.img.html" />
       </list>
     </recent_temporary>
   </component>
@@ -344,33 +497,34 @@
       <updated>1468299660525</updated>
       <workItem from="1468299661687" duration="3894000" />
       <workItem from="1468305451977" duration="2537000" />
-      <workItem from="1468475588940" duration="399000" />
+      <workItem from="1468475588940" duration="4732000" />
+      <workItem from="1468809901158" duration="8176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6830000" />
+    <option name="totallyTimeSpent" value="19339000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="23" width="1397" height="877" extended-state="6" />
+    <frame x="28" y="23" width="1412" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25290698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25017974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -381,363 +535,428 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utils/hover/hover05.html">
+    <entry file="file://$PROJECT_DIR$/dialog/dialog01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="256" column="7" selection-start-line="256" selection-start-column="7" selection-end-line="256" selection-end-column="7" />
+        <state relative-caret-position="105">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animate/loadding/loadding02.html">
+    <entry file="file://$PROJECT_DIR$/utils/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="115" column="7" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
+        <state relative-caret-position="885">
+          <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/border/android_border.html">
+    <entry file="file://$PROJECT_DIR$/utils/connectBook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-885">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btn/btn06.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10815">
+          <caret line="721" column="7" selection-start-line="721" selection-start-column="7" selection-end-line="721" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/layout02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btn/btn07.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/jquery.easing.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate/input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate/downarrow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate/tips.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="135" column="18" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate/tips02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="108" column="14" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate/tips03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="142" column="7" selection-start-line="142" selection-start-column="7" selection-end-line="142" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/stopExecutionOnTimeout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate/tips04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="269" column="39" selection-start-line="269" selection-start-column="39" selection-end-line="269" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate/tips05.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="188" column="146" selection-start-line="188" selection-start-column="146" selection-end-line="188" selection-end-column="146" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate/tips06.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="204" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="204" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate/tips07.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="71" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/setpinput.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="168" column="55" selection-start-line="168" selection-start-column="55" selection-end-line="168" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/imgfilter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <caret line="87" column="31" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+          <caret line="91" column="31" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
+          <caret line="95" column="31" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
+          <caret line="99" column="31" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+          <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+          <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+          <caret line="111" column="31" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
+          <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/regist_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5336">
+          <caret line="480" column="25" selection-start-line="480" selection-start-column="25" selection-end-line="480" selection-end-column="25" />
+          <folding>
+            <marker date="1468814479000" expanded="true" signature="12760:12823" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/mobile-meta.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="92" column="7" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate/180_3d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btn/hover/hover03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate/loadding/loadding05.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate/searching.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="152" column="7" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu/menu18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10755">
+          <caret line="717" column="6" selection-start-line="717" selection-start-column="6" selection-end-line="717" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btn/btn08.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3390">
+          <caret line="226" column="7" selection-start-line="226" selection-start-column="7" selection-end-line="226" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btn/hover/hover04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nav/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="627" column="0" selection-start-line="627" selection-start-column="0" selection-end-line="627" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate/hover01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2820">
+          <caret line="188" column="21" selection-start-line="188" selection-start-column="21" selection-end-line="189" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/word/word-gradent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/word/WordShowdown.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btn/button09.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate/404-02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate/scroll.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="92" column="7" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/valid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="62" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btn/checkbox03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btn/radio01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/img_animation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
-          <caret line="114" column="57" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
+          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animate/loadding/loadding03.html">
+    <entry file="file://$PROJECT_DIR$/utils/img.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2115">
-          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        <state relative-caret-position="971">
+          <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/btn/switch/switch01.html">
+    <entry file="file://$PROJECT_DIR$/menu/menu19.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        <state relative-caret-position="206">
+          <caret line="297" column="89" selection-start-line="297" selection-start-column="57" selection-end-line="297" selection-end-column="89" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/btn/switch/switch03.html">
+    <entry file="file://$PROJECT_DIR$/utils/hover/icon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        <state relative-caret-position="373">
+          <caret line="171" column="9" selection-start-line="171" selection-start-column="9" selection-end-line="171" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/menu/menu06.html">
+    <entry file="file://$PROJECT_DIR$/animate/link02.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="316" column="42" selection-start-line="316" selection-start-column="42" selection-end-line="316" selection-end-column="42" />
+        <state relative-caret-position="446">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/menu/menu07.html">
+    <entry file="file://$PROJECT_DIR$/animate/link01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3756">
-          <caret line="356" column="7" selection-start-line="356" selection-start-column="7" selection-end-line="356" selection-end-column="7" />
+        <state relative-caret-position="1455">
+          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/border/border.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="103" column="7" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu/menu08.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/scroll/scroll02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="186" column="7" selection-start-line="186" selection-start-column="7" selection-end-line="186" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu/menu09.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu/menu10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="90" column="7" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu/menu11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="94" column="66" selection-start-line="94" selection-start-column="66" selection-end-line="94" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/btn/switch/switch04.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="103" column="7" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tab/tab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/sliding.js">
+    <entry file="file://$PROJECT_DIR$/public/font/font_1433757735_1585197.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input/input.html">
+    <entry file="file://$PROJECT_DIR$/public/js/prettify.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1089">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btn/checkbox04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5942">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu/menu12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8070">
-          <caret line="538" column="25" selection-start-line="538" selection-start-column="25" selection-end-line="538" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/btn/switch/switch05.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animate/loadding/loadding04.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="260" column="16" selection-start-line="260" selection-start-column="16" selection-end-line="260" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu/menu13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/scroll/scroll03.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animate/taiji.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="129" column="7" selection-start-line="129" selection-start-column="7" selection-end-line="129" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/select.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="105" column="7" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/meta.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animate/planet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="242" column="14" selection-start-line="242" selection-start-column="14" selection-end-line="242" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animate/lighting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/horizon-mid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/vedio-mid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/ellipsis01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animate/slideshow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="219" column="14" selection-start-line="219" selection-start-column="14" selection-end-line="219" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/datepicker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu/menu14.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="80" column="46" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/zepto.aslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/list_layer_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/zepto.fx_methods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/zepto.fx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/zepto.aslider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animate/slidershow01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animate/flower.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="239" column="7" selection-start-line="239" selection-start-column="7" selection-end-line="239" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/btn/checkbox01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animate/modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tab/tab01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="111" column="14" selection-start-line="111" selection-start-column="14" selection-end-line="111" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu/menu15.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="599" column="14" selection-start-line="599" selection-start-column="14" selection-end-line="599" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/toplevel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="120" column="7" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/btn/btn01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="721" column="7" selection-start-line="721" selection-start-column="7" selection-end-line="721" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/btn/sliderbar/sliderbar02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2370">
-          <caret line="158" column="7" selection-start-line="158" selection-start-column="7" selection-end-line="158" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/btn/hover/hover02.html">
+    <entry file="file://$PROJECT_DIR$/btn/switch/switch07.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" column="7" selection-start-line="87" selection-start-column="7" selection-end-line="87" selection-end-column="7" />
+        <state relative-caret-position="390">
+          <caret line="26" column="4" selection-start-line="6" selection-start-column="11" selection-end-line="26" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/btn/btn02.html">
+    <entry file="file://$PROJECT_DIR$/utils/word/mark.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="292" column="16" selection-start-line="292" selection-start-column="16" selection-end-line="292" selection-end-column="16" />
+        <state relative-caret-position="1200">
+          <caret line="80" column="51" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/utils/hover/hover07.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="26">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html class=''>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style class="cp-pen-styles">
+        *, *:before, *:after, h1, h2, h3, h4, h5, h6, p, a, input, ul, li, button {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: none;
+            background-color: transparent;
+            text-decoration: none;
+            list-style: none;
+        }
+        html, body {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #FAFAFA;
+            font-family: 'Roboto';
+        }
+
+        svg {
+            position: relative;
+        }
+
+        .snowfall {
+            width: 100px;
+            height: 70px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -80%) rotate(25deg);
+            transform: translate(-50%, -80%) rotate(25deg);
+        }
+        .snowfall .snow {
+            width: 15px;
+            height: 6px;
+            border-radius: 20px;
+            background-color: #FAFAFA;
+        }
+        .snowfall .snow:nth-child(1) {
+            -webkit-transform: translate(-75px, 30px);
+            transform: translate(-75px, 30px);
+            -webkit-animation: snowfall-first 1.5s ease-in-out infinite;
+            animation: snowfall-first 1.5s ease-in-out infinite;
+            -webkit-animation-delay: .5s;
+            animation-delay: .5s;
+        }
+        .snowfall .snow:nth-child(2) {
+            -webkit-transform: translate(-50px, 15px);
+            transform: translate(-50px, 15px);
+            -webkit-animation: snowfall-second 1.5s ease-in-out infinite;
+            animation: snowfall-second 1.5s ease-in-out infinite;
+            -webkit-animation-delay: .3s;
+            animation-delay: .3s;
+        }
+        .snowfall .snow:nth-child(3) {
+            -webkit-transform: translate(-15px, 2px);
+            transform: translate(-15px, 2px);
+            -webkit-animation: snowfall-third 2s ease-in-out infinite;
+            animation: snowfall-third 2s ease-in-out infinite;
+            -webkit-animation-delay: .2s;
+            animation-delay: .2s;
+        }
+        .snowfall .snow:nth-child(4) {
+            -webkit-transform: translate(-10px, 5px);
+            transform: translate(-10px, 5px);
+            -webkit-animation: snowfall-fourth 1.5s ease-in-out infinite;
+            animation: snowfall-fourth 1.5s ease-in-out infinite;
+            -webkit-animation-delay: .1s;
+            animation-delay: .1s;
+        }
+        .snowfall .snow:nth-child(5) {
+            -webkit-transform: translate(0px, 10px);
+            transform: translate(0px, 10px);
+            -webkit-animation: snowfall-fifth 1s ease-in-out infinite;
+            animation: snowfall-fifth 1s ease-in-out infinite;
+        }
+
+        .tree-trunk {
+            width: 6px;
+            height: 20px;
+            background-color: #324C5A;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            margin-top: -5px;
+        }
+
+        .text {
+            color: #BDBDBD;
+            margin-top: 20px;
+            font-weight: 300;
+        }
+
+        @-webkit-keyframes snowfall-first {
+            100% {
+                -webkit-transform: translate(100px, 30px);
+                transform: translate(100px, 30px);
+            }
+        }
+
+        @keyframes snowfall-first {
+            100% {
+                -webkit-transform: translate(100px, 30px);
+                transform: translate(100px, 30px);
+            }
+        }
+        @-webkit-keyframes snowfall-second {
+            100% {
+                -webkit-transform: translate(100px, 15px);
+                transform: translate(100px, 15px);
+            }
+        }
+        @keyframes snowfall-second {
+            100% {
+                -webkit-transform: translate(100px, 15px);
+                transform: translate(100px, 15px);
+            }
+        }
+        @-webkit-keyframes snowfall-third {
+            100% {
+                -webkit-transform: translate(100px, 2px);
+                transform: translate(100px, 2px);
+            }
+        }
+        @keyframes snowfall-third {
+            100% {
+                -webkit-transform: translate(100px, 2px);
+                transform: translate(100px, 2px);
+            }
+        }
+        @-webkit-keyframes snowfall-fourth {
+            100% {
+                -webkit-transform: translate(100px, 5px);
+                transform: translate(100px, 5px);
+            }
+        }
+        @keyframes snowfall-fourth {
+            100% {
+                -webkit-transform: translate(100px, 5px);
+                transform: translate(100px, 5px);
+            }
+        }
+        @-webkit-keyframes snowfall-fifth {
+            100% {
+                -webkit-transform: translate(100px, 10px);
+                transform: translate(100px, 10px);
+            }
+        }
+        @keyframes snowfall-fifth {
+            100% {
+                -webkit-transform: translate(100px, 10px);
+                transform: translate(100px, 10px);
+            }
+        }
+    </style></head><body>
+<svg
+        xmlns='http://www.w3.org/2000/svg'
+        viewBox='0 0 64 64'
+        width='64' height='67'
+        fill='#57CE78'
+        stroke="#324C5A"
+        stroke-width="6"
+        stroke-linejoin="round">
+    <path d='M8 58 L56 58 L32 2 Z' />
+    <div class="snowfall">
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+    </div>
+</svg>
+<div class="tree-trunk"></div>
+<div class="text">
+    snowfall
+</div>
+</body></html>

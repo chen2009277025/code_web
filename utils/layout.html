@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>CSS布局：中栏固定宽度,左右两栏宽度相等同时自适应宽度</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            font-family:Verdana, Arial, Helvetica, sans-serif;
+            min-width:620px;
+            background:#fff;
+        }
+        #header,#footer{
+            clear:both;
+            padding:10px;
+            text-align:center;
+
+        }
+        #left,
+        #right{
+            float:left;
+            width:50%;
+            margin:0 0 0 -151px;
+        }
+        #innerLeft,
+        #innerRight{
+            margin:0 0 0 151px;
+            background-color:#efefef;
+        }
+        #middle{
+            float:left;
+            width:300px;
+            background-color:#ccc;
+        }
+        .inner {
+            padding:12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<DIV id="header">
+    <H1>固定中栏宽度, 左右两栏宽度相等和自适应</H1></DIV>
+<DIV id="left">
+    <DIV id="innerLeft" class="inner">
+        <P><STRONG>表现:</STRONG>中间一栏居中与固定宽度，左右两栏宽度相等同时自适应宽度。</P></DIV></DIV>
+<DIV id="middle">
+    <DIV id="innerMiddle" class="inner">
+        <P><STRONG>原理:</STRONG>利用margin的负值错别固定的宽度，因为要分两边，所以只要错开一中间的固定宽度就行</P></DIV>
+</DIV>
+<DIV id="right">
+    <DIV id="innerRight" class="inner">
+        <P><STRONG>问题:</STRONG>IE对宽度乘百分比的计算不大好，有必要牺牲一两px的显示，IE6也没最小宽度。</P></DIV></DIV>
+
+</body>
+</html>

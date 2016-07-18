@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>tip提示效果</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background:#333;
+        }
+        .ct{
+            text-align:center;
+            margin-top:50px;
+            color:#E2E2E2;
+            font-family:Tahoma, Arial, sans-serif;
+        }
+        .GenTip{
+            text-decoration:none;
+            color:#C2C2C2;
+            animation:TextGen 1s infinite;
+            transition:1s ease-in-out;
+        }
+        .GenTip span{
+            padding:5px;
+            border:3px solid #C2C2C2;
+            position:absolute;
+            margin: -10px 0 0 10px;
+            border-radius:5px;
+            display:none;
+        }
+        .GenTip span:after{
+            content:'';
+            border-right: 11px solid #C2C2C2;
+            border-bottom: 10px solid transparent;
+            border-top: 10px solid transparent;
+            position: absolute;
+            display:inline-block;
+            left:0;
+            margin-left:-11px;
+        }
+        .GenTip:hover span{
+            display:inline-block;
+            animation:GenTip 0.5s linear;
+        }
+        @keyframes GenTip{
+            0%{opacity:0; margin-top:5px;}
+            50%{opacity:0.5;}
+            70%{opacity:0.7;}
+            100%{opacity:1;}
+        }
+        @keyframes TextGen{
+            0%{opacity:0.7; }
+            100%{opacity:0.9; }
+        }
+        /*This is for presentation*/
+        article.des{
+            font-weight:italic;
+            font-size:12px;
+            color:D3D3D3;
+            margin-top:20px;
+        }</style>
+
+</head>
+
+<body>
+<section class="ct">
+    <a href="#" class="GenTip">Hey... Hover Me. <span>I'm GenTip</span> </a>
+    <article class="des">Author: @Victorile .</article>
+</section></body>
+</html>

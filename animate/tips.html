@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="email=no" name="format-detection" /><!--禁止Android中自动识别页面中的邮件地址-->
+    <title>图标or文字提示层</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        font-family: "Open Sans";
+        line-height: 1.618em;
+        color: #555;
+        background: #2c3e50;
+    }
+    .wrapper {
+        max-width: 50rem;
+        width: 100%;
+        margin: 2rem auto;
+        padding: 5rem;
+        background: #fff;
+        border: 0.5rem solid #34495e;
+    }
+    a {
+        text-decoration: none;
+        color: #3498db;
+    }
+    .fa {
+        font-size: 4rem;
+        margin: 1rem;
+    }
+    .fa-twitter {
+        color: #00b0ed;
+    }
+    .fa-facebook {
+        color: #3b5998;
+    }
+    .tooltip {
+        position: relative;
+    }
+    .tooltip:hover .tip {
+        opacity: 1;
+        visibility: visible;
+        margin-left: 0.5rem;
+        -webkit-transition: all 0.35s;
+        transition: all 0.35s;
+    }
+    .tip {
+        opacity: 0;
+        visibility: hidden;
+        display: block;
+        white-space: nowrap;
+        position: absolute;
+        z-index: 1;
+        left: 100%;
+        bottom: 50%;
+        padding: 1em;
+        margin-left: 0;
+        margin-top: 0.5rem;
+        font-size: 0.8em;
+        font-weight: normal;
+        background: #34495e;
+        border-radius: 1em;
+        color: #fff;
+        -webkit-transition: all 0.35s;
+        transition: all 0.35s;
+    }
+    .tip::before {
+        content: '';
+        border-style: solid;
+        border-width: 0.5rem 0.625rem 0.5rem 0;
+        border-color: transparent #34495e transparent transparent;
+        position: absolute;
+        right: 100%;
+        bottom: calc(50% - 0.5rem);
+        width: 0;
+        height: 0;
+    }
+    sup {
+        position: relative;
+        cursor: pointer;
+    }
+    sup span {
+        cursor: default;
+        background: #ecf0f1;
+        border: 0.125rem solid #3498db;
+        position: absolute;
+        left: 0;
+        bottom: 100%;
+        margin: 0 0 0.7em -1em;
+        width: 12em;
+        padding: 1em;
+        line-height: 1.618em;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: all 0.35s;
+        transition: all 0.35s;
+    }
+    sup span::before {
+        content: '';
+        border-style: solid;
+        border-width: 0.7em 0.7em 0 0.7em;
+        border-color: #3498db transparent transparent transparent;
+        position: absolute;
+        left: 0.7em;
+        bottom: -0.7em;
+        width: 0;
+        height: 0;
+    }
+    sup:hover span {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transition: all 0.35s;
+        transition: all 0.35s;
+    }
+    .footnotes {
+        margin: 60rem auto;
+    }
+    #footnote:target {
+        background: #ecf0f1;
+    }
+</style>
+
+<body>
+<div class="wrapper">
+
+    <h1>Tooltips</h1>
+
+    <div>
+        <a href="#" target="_blank" class="tooltip">
+            <i class="fa fa-twitter">过来</i><span class="tip">Follow Us On Twitter</span>
+        </a>
+    </div>
+    <br>
+    <br>
+    <div>
+        <a href="#" target="_blank" class="tooltip">
+            <i class="fa fa-facebook">过来</i><span class="tip">Like Our Facebook Page</span>
+        </a>
+    </div>
+    <p> </p>
+    <h1>Citations</h1>
+    <sup><a href="#footnote">[1]</a> <span><cite><a href="#" target="_blank">Gulliver's Travels </a></cite> by Jonathan Swift, 1726</span></sup>
+    <br>
+    <br>
+    <sup>[2] <span>Part I: A Voyage to Lilliput</span></sup>
+    <br>
+    <br>
+    <sup>[3] <span>Part II: A Voyage to Brobdingnag</span></sup>
+    <br>
+    <br>
+</div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+
+
+    <title>文本标记效果</title>
+
+
+
+
+    <style>
+        p {
+            font-size: 18px;color:#555;
+        }
+
+        .marked {
+            position: relative;
+            display: inline-block;
+            color: red;
+        }
+
+        .marker {
+            position: absolute;
+            top: 40%;
+            left: 0;
+            display: block;
+            border-bottom: 3px solid green;
+        }
+        .marker.crossed {
+            height: 1px;
+        }
+        .marker.crossed:last-child {
+            top: 60%;
+        }
+
+        .circle {
+            position: absolute;
+            bottom: 0;
+            left: -5px;
+            display: block;
+            height: 16px;
+            width: 70px;
+            border: 3px solid green;
+            border-radius: 45%;
+            -webkit-transform: rotate(359deg);
+            -ms-transform: rotate(359deg);
+            transform: rotate(359deg);
+        }
+
+        .circle-two {
+            position: absolute;
+            bottom: -1px;
+            left: -5px;
+            display: block;
+            height: 16px;
+            width: 72px;
+            border: 3px solid green;
+            border-radius: 45%;
+            -webkit-transform: rotate(353deg);
+            -ms-transform: rotate(353deg);
+            transform: rotate(353deg);
+        }
+
+    </style>
+
+    <script>
+        window.console = window.console || function(t) {};
+        window.open = function(){ console.log("window.open is disabled."); };
+        window.print   = function(){ console.log("window.print is disabled."); };
+    </script>
+
+
+
+</head>
+
+<body>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam <span class="marked circled">tincidunt<span class="circle"></span><span class="circle-two"></span></span> congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna <span class="marked crossed">consequat</span> sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+<script src="../public/js/stopExecutionOnTimeout.js"></script>
+
+
+<script>
+    (function () {
+        var acute = [
+            1,
+            2,
+            3,
+            4,
+            5
+        ], obtuse = [
+            355,
+            356,
+            357,
+            358,
+            359
+        ];
+        var marked = document.getElementsByClassName('marked');
+        for (var i = 0, x = marked.length; i < x; i++) {
+            if (marked[i].className === 'marked crossed') {
+                var firstRotation = acute[Math.floor(Math.random() * acute.length)], secondRotation = obtuse[Math.floor(Math.random() * obtuse.length)], spanWidth = marked[i].clientWidth, firstWidth = spanWidth - firstRotation, secondWidth = spanWidth + firstRotation, markOne = document.createElement('span'), markTwo = document.createElement('span');
+                markOne.className = 'marker crossed';
+                markOne.style.left = '0';
+                markOne.style.width = firstWidth + 'px';
+                markOne.style.transform = 'rotate(' + firstRotation + 'deg)';
+                markTwo.className = 'marker crossed';
+                markTwo.style.left = '0';
+                markTwo.style.width = secondWidth + 'px';
+                markTwo.style.transform = 'rotate(' + secondRotation + 'deg)';
+                marked[i].appendChild(markOne);
+                marked[i].appendChild(markTwo);
+            } else if (marked[i].className === 'marked circled') {
+                console.log(marked[i]);
+            } else {
+                console.log('no match');
+            }
+        }
+        ;
+    }());
+    //@ sourceURL=pen.js
+</script>
+
+
+<script>
+    if (document.location.search.match(/type=embed/gi)) {
+        window.parent.postMessage("resize", "*");
+    }
+</script>
+
+
+</body>
+</html>
+

@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>tip提示效果</title>
+    <style>
+        /************** Tool Tip Styles ********************************/
+        .tool-tip {
+            display: inline-block;
+            position: relative;
+            margin-left: 0.5em;
+        }
+        .tool-tip .tool-tip__icon {
+            background: #27b1f0;
+            border-radius: 10px;
+            cursor: pointer;
+            display: inline-block;
+            font-style: italic;
+            font-family: times new roman;
+            height: 20px;
+            line-height: 1.3em;
+            text-align: center;
+            width: 20px;
+        }
+        .tool-tip .tool-tip__info {
+            display: none;
+            background: #262626;
+            border: 1px solid #27b1f0;
+            border-radius: 3px;
+            font-size: 0.875em;
+            padding: 1em;
+            position: absolute;
+            left: 30px;
+            top: -20px;
+            width: 250px;
+            z-index: 2;
+        }
+        .tool-tip .tool-tip__info:before, .tool-tip .tool-tip__info:after {
+            content: "";
+            position: absolute;
+            left: -10px;
+            top: 7px;
+            border-style: solid;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent #27b1f0;
+        }
+        .tool-tip .tool-tip__info:after {
+            left: -8px;
+            border-right-color: #262626;
+        }
+        .tool-tip .tool-tip__info .info {
+            display: block;
+        }
+        .tool-tip .tool-tip__info .info__title {
+            color: #fa00f3;
+        }
+        .tool-tip:hover .tool-tip__info, .tool-tip:focus .tool-tip__info {
+            display: inline-block;
+        }
+
+        a:focus + .tool-tip .tool-tip__info {
+            display: inline-block;
+        }
+
+        /******* Styles just to make it look a little better *******/
+        body{
+            background-color: #262626;
+            color:#ffffff;
+            font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        article{
+            background: #414141;
+            border-radius: 5px;
+            padding: 1em;
+            margin: 1em;
+        }
+        i{
+            font-style: normal;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover,
+        a:focus{
+            text-decoration: underline;
+        }
+        li{
+            margin: 5px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+<article class="example-article">
+    <h1>September 2013 Chart</h1>
+    <ol>
+        <li>
+            <a href="" title="">Ninetoes - Finder</a>
+            <div class="tool-tip">
+                <i class="tool-tip__icon">i</i>
+                <p class="tool-tip__info">
+                    <span class="info"><span class="info__title">Label:</span> Kling Klong</span>
+                    <span><span class="info__title">Most popular month:</span> August 2013</span>
+                </p>
+            </div>
+        </li>
+        <li>
+            <a href="" title="">Hot Natured feat. Anabel EnglundReverse - Skydiving</a>
+            <div class="tool-tip">
+                <i class="tool-tip__icon">i</i>
+                <p class="tool-tip__info">
+                    <span class="info"><span class="info__title">Label:</span> Hot Creations</span>
+                    <span><span class="info__title">Most popular month:</span> August 2013</span>
+                </p>
+            </div>
+        </li>
+        <li>
+            <a href="" title="">Full Intention - Icon</a>
+            <div class="tool-tip">
+                <i class="tool-tip__icon">i</i>
+                <p class="tool-tip__info">
+                    <span class="info"><span class="info__title">Label:</span> Rebirth</span>
+                    <span><span class="info__title">Most popular month:</span> August 2013</span>
+                </p>
+            </div>
+        </li>
+        <li>
+            <a href="" title="">Kenlou - The Bounce</a>
+            <div class="tool-tip">
+                <i class="tool-tip__icon">i</i>
+                <p class="tool-tip__info">
+                    <span class="info"><span class="info__title">Label:</span> Strictly Rhythm</span>
+                    <span><span class="info__title">Most popular month:</span>  March 2013</span>
+                </p>
+            </div>
+        </li>
+        <li>
+            <a href="" title="">Plezier - Like</a>
+            <div class="tool-tip">
+                <i class="tool-tip__icon">i</i>
+                <p class="tool-tip__info">
+                    <span class="info"><span class="info__title">Label:</span> Moda Black</span>
+                    <span><span class="info__title">Most popular month:</span> August 2013</span>
+                </p>
+            </div>
+        </li>
+        <li>
+            <a href="" title="">Kruse & Nuernberg - Off Course (Stefano Ritteri remix)</a>
+            <div class="tool-tip">
+                <i class="tool-tip__icon">i</i>
+                <p class="tool-tip__info">
+                    <span class="info"><span class="info__title">Label:</span> Rebirth</span>
+                    <span><span class="info__title">Most popular month:</span>  August 2013</span>
+                </p>
+            </div>
+        </li>
+        <li>
+            <a href="" title="">Ghost Poet - Cold Win (Lorca Remix)</a>
+            <div class="tool-tip">
+                <i class="tool-tip__icon">i</i>
+                <p class="tool-tip__info">
+                    <span class="info"><span class="info__title">Label:</span> Play It Again Sam</span>
+                    <span><span class="info__title">Most popular month:</span>  November 2007</span>
+                </p>
+            </div>
+        </li>
+        <li>
+            <a href="" title="">Nina Kraviz - Pain In The Ass (Lewis Boardman Greatest Pain In Tha Arse remix)</a>
+            <div class="tool-tip">
+                <i class="tool-tip__icon">i</i>
+                <p class="tool-tip__info">
+                    <span class="info"><span class="info__title">Label:</span> Rekids</span>
+                    <span><span class="info__title">Most popular month:</span>  March 2013</span>
+                </p>
+            </div>
+        </li>
+        <li>
+            <a href="" title="">Brodinski - Gimme Back the Night (Club Mix)</a>
+            <div class="tool-tip">
+                <i class="tool-tip__icon">i</i>
+                <p class="tool-tip__info">
+                    <span class="info"><span class="info__title">Label:</span> Bromance</span>
+                    <span><span class="info__title">Most popular month:</span>  March 2013</span>
+                </p>
+            </div>
+        </li>
+        <li>
+            <a href="" title="">Legitimate Scandal - Fu Gee La</a>
+            <div class="tool-tip">
+                <i class="tool-tip__icon">i</i>
+                <p class="tool-tip__info">
+                    <span class="info"><span class="info__title">Label:</span> Guesthouse Music</span>
+                    <span><span class="info__title">Most popular month:</span>  March 2013</span>
+                </p>
+            </div>
+        </li>
+    </ol>
+
+
+</article>
+
+</body>
+</html>

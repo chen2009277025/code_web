@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+
+
+    <title>CSS3提示必填输入框</title>
+
+
+
+
+    <style>
+        body {
+            background-color: rgb(0,159,214);
+            font: normal 1em Helvetica,Arial;
+            padding: 2em;
+        }
+        input[type="text"], textarea {
+            background-color: #eee;
+            border: none;
+            border-radius: .125em;
+            display: block;
+            font: inherit;
+            font-size: 1.5em;
+            line-height: 2em;
+            margin: .5em auto;
+            padding: 0 .5em;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 50%;
+        }
+        input[type="text"][required] {
+            background-image: linear-gradient(45deg, transparent, transparent 50%, red 50%, red 100%);
+            background-position: top right;
+            background-size: .5em .5em;
+            background-repeat: no-repeat;
+        }
+        textarea[required] {
+            background-image: radial-gradient(red 20%, transparent 25%);
+            background-size: 1em 1em;
+            background-position: top right;
+            background-repeat: no-repeat
+        }
+    </style>
+
+    <script>
+        window.console = window.console || function(t) {};
+        window.open = function(){ console.log("window.open is disabled."); };
+    </script>
+
+
+
+</head>
+
+<body>
+
+<input type="text" placeholder="Required" required>
+
+<textarea placeholder="Required" required>
+ </textarea>
+</body>
+</html>

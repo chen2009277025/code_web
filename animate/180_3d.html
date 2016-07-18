@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+
+
+    <title>180度立体展示</title>
+
+
+
+
+    <style>
+
+        html {
+            overflow: hidden;
+            touch-action: none;
+            content-zooming: none;
+            margin:0;
+            padding:0;
+        }
+        body {
+            width: 100%;
+            height: 100%;
+
+        }
+
+        #screen {
+            position:absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-perspective:500px;
+            perspective:500px;
+            -webkit-perspective-origin:50% 50%;
+            perspective-origin:50% 50%;
+
+            cursor: default;
+        }
+
+        #live {
+            position:absolute;
+            width:640px;
+            height:200px;
+            left:50%;
+            top:50%;
+            margin-left:-320px;
+            margin-top:-100px;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+
+        }
+        #live span {
+            position: absolute;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            color:#fff;
+            font-family: 'Slackey', cursive;
+            font-size: 220px;
+            top: -60px;
+        }
+        #E {left:0%}
+        #V {left:25%}
+        #I {left:50%}
+        #L {left:75%}
+    </style>
+
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+
+
+
+</head>
+
+<body>
+
+<div id="screen">
+    <div id="live">
+        <span id="E">L</span>
+        <span id="V">I</span>
+        <span id="I">V</span>
+        <span id="L">E</span>
+    </div>
+</div>
+<script>
+    "use strict";"object"!=typeof window.CP&&(window.CP={}),window.CP.PenTimer={programNoLongerBeingMonitored:!1,timeOfFirstCallToShouldStopLoop:0,_loopExits:{},_loopTimers:{},START_MONITORING_AFTER:2e3,STOP_ALL_MONITORING_TIMEOUT:5e3,MAX_TIME_IN_LOOP_WO_EXIT:2200,exitedLoop:function(o){this._loopExits[o]=!0},shouldStopLoop:function(o){if(this.programKilledSoStopMonitoring)return!0;if(this.programNoLongerBeingMonitored)return!1;if(this._loopExits[o])return!1;var t=this._getTime();if(0===this.timeOfFirstCallToShouldStopLoop)return this.timeOfFirstCallToShouldStopLoop=t,!1;var i=t-this.timeOfFirstCallToShouldStopLoop;if(i<this.START_MONITORING_AFTER)return!1;if(i>this.STOP_ALL_MONITORING_TIMEOUT)return this.programNoLongerBeingMonitored=!0,!1;try{this._checkOnInfiniteLoop(o,t)}catch(n){return this._sendErrorMessageToEditor(),this.programKilledSoStopMonitoring=!0,!0}return!1},_sendErrorMessageToEditor:function(){try{if(this._shouldPostMessage()){var o={action:"infinite-loop",line:this._findAroundLineNumber()};parent.postMessage(JSON.stringify(o),"*")}else this._throwAnErrorToStopPen()}catch(t){this._throwAnErrorToStopPen()}},_shouldPostMessage:function(){return document.location.href.match(/boomerang/)},_throwAnErrorToStopPen:function(){throw"We found an infinite loop in your Pen. We've stopped the Pen from running. Please correct it or contact support@codepen.io."},_findAroundLineNumber:function(){var o=new Error,t=0;if(o.stack){var i=o.stack.match(/boomerang\S+:(\d+):\d+/);i&&(t=i[1])}return t},_checkOnInfiniteLoop:function(o,t){if(!this._loopTimers[o])return this._loopTimers[o]=t,!1;var i=t-this._loopTimers[o];if(i>this.MAX_TIME_IN_LOOP_WO_EXIT)throw"Infinite Loop found on loop: "+o},_getTime:function(){return+new Date}},window.CP.shouldStopExecution=function(o){return window.CP.PenTimer.shouldStopLoop(o)},window.CP.exitedLoop=function(o){window.CP.PenTimer.exitedLoop(o)};
+</script>
+
+
+<script>
+    ~ function() {
+
+        'use strict';
+
+        function run() {
+
+            requestAnimationFrame(run);
+            r = ((screen.offsetWidth / 2) - pointer.ex) / 2;
+            pointer.ease(15);
+            live.style[transform] = 'rotateY(' + r + 'deg)';
+
+            for (var i = 0; i < numLetters; i++) {
+                letters[i].style[transform] = 'rotateY(' + (-r) + 'deg)';
+                var c = (70 - (i - 1.5) * Math.sin(r * Math.PI / 180) * 40);
+                letters[i].style.color = 'hsl(0, 0%, ' + c + '%)';
+            }
+        }
+
+        var live = document.getElementById('live'),
+                transform = getPrefix(['transform', 'WebkitTransform']),
+                letters = live.children,
+                numLetters = letters.length,
+                r = 0;
+
+        function getPrefix(prefixes) {
+            for (var test, i = 0; test = prefixes[i++];) {
+                if (typeof document.body.style[test] != 'undefined') return test;
+            }
+            return null;
+        }
+
+        var screen = document.getElementById('screen');
+        var pointer = (function(screen) {
+            var pointer = {
+                x: screen.offsetWidth / 2,
+                ex: screen.offsetWidth / 2 - 180,
+                pointer: function(e) {
+                    var touchMode = e.targetTouches,
+                            pointer;
+                    if (touchMode) {
+                        e.preventDefault();
+                        pointer = touchMode[0];
+                    } else pointer = e;
+                    this.x = pointer.clientX;
+                },
+                ease: function(steps) {
+                    this.ex += (this.x - this.ex) / steps;
+                }
+            };
+            window.addEventListener('mousemove', function(e) {
+                this.pointer(e);
+            }.bind(pointer), false);
+            window.addEventListener('touchmove', function(e) {
+                this.pointer(e);
+            }.bind(pointer), false);
+            return pointer;
+        }(screen));
+
+        run();
+
+    }();
+    //@ sourceURL=pen.js
+</script>
+
+
+<script>
+    if (document.location.search.match(/type=embed/gi)) {
+        window.parent.postMessage("resize", "*");
+    }
+</script>
+
+
+</body>
+</html>

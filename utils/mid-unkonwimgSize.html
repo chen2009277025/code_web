@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=8" http-equiv="X-UA-Compatible"/>
+    <title>司徒正美 CSS垂直居中</title>
+    <style type="text/css">
+        div{
+            width:500px;
+            height:500px;
+            line-height:500px;
+            text-align:center;
+            background:#B9D6FF;
+            border:1px solid #f00;
+        }
+        div span{
+            height:100%\9;
+            writing-mode:tb-rl\9;
+        }
+        div img{
+            vertical-align:middle
+        }
+    </style>
+
+
+</head>
+<body>
+<h1>垂直居中(writing-mode)</h1>
+<div class="container">
+      <span>
+        <img src="../public/img/1.jpg" />
+      </span>
+</div>
+</body>
+</html>
