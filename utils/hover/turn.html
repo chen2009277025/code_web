@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>css3 简单的旋转效果</title>
+    <style>
+        html{
+            height:100%;
+        }
+
+        body{
+            background-color:#c0c0c0;
+            height:100%;
+        }
+
+        .wrapper{
+            display:inline-block;
+            cursor:pointer;
+            width:250px;
+            height:250px;
+            background-color:#fff;
+            border-radius:50%;
+            position:relative;
+            margin:60px;
+        }
+
+        .wrapper span{
+            position:absolute;
+            z-index:2;
+            text-transform:uppercase;
+            color:rgba(0,0,0,0.9);
+            width:100%;
+            text-align:center;
+            font:bold 2.5em arial,sans-serif;
+            line-height:250px;
+            -webkit-transition: all 0.4s ease;
+            -moz-transition: all 0.4s ease;
+            -o-transition: all 0.4s ease;
+            -ms-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+        }
+
+        .wrapper:hover span{
+            opacity:0;
+        }
+
+        .content{
+            width:100%;
+            height:100%;
+            border-radius:50%;
+            overflow:hidden;
+            text-align:center;
+        }
+
+        .content img{
+            max-width:100%;
+            height:100%;
+        }
+
+        .shape{
+            position: absolute;
+            border: 0 solid transparent;
+            border-top: 45px solid #FF8E00;
+            border-radius: 0 125px 0 0;
+            width: 50%;
+            height: 50%;
+            transform-origin:0% 28%;
+            -webkit-transform-origin:0% 28%;
+            -moz-transform-origin:0% 28%;
+            -ms-transform-origin:0% 28%;
+            -o-transform-origin:0% 28%;
+            -webkit-transition: all 0.6s ease;
+            -moz-transition: all 0.6s ease;
+            -o-transition: all 0.6s ease;
+            -ms-transition: all 0.6s ease;
+            transition: all 0.6s ease;
+        }
+
+        .item1{
+            left:100%;
+            top:30.8%;
+            transform: rotate(160deg);
+            -webkit-transform: rotate(160deg);
+            -moz-transform: rotate(160deg);
+            -ms-transform: rotate(160deg);
+            -o-transform: rotate(160deg);
+        }
+        .wrapper:hover .item1{
+            transform: rotate(95deg);
+            -webkit-transform: rotate(95deg);
+            -moz-transform: rotate(95deg);
+            -ms-transform: rotate(95deg);
+            -o-transform: rotate(95deg);
+        }
+        .item2{
+            left:96.2%;
+            top:50%;
+            transform: rotate(182.5deg);
+            -webkit-transform: rotate(182.5deg);
+            -moz-transform: rotate(182.5deg);
+            -ms-transform: rotate(182.5deg);
+            -o-transform: rotate(182.5deg);
+        }
+        .wrapper:hover .item2{
+            transform: rotate(117.5deg);
+            -webkit-transform: rotate(117.5deg);
+            -moz-transform: rotate(117.5deg);
+            -ms-transform: rotate(117.5deg);
+            -o-transform: rotate(117.5deg);
+        }
+        .item3{
+            left:85.4%;
+            top:66.2%;
+            transform: rotate(205deg);
+            -webkit-transform: rotate(205deg);
+            -moz-transform: rotate(205deg);
+            -ms-transform: rotate(205deg);
+            -o-transform: rotate(205deg);
+        }
+        .wrapper:hover .item3{
+            transform: rotate(140deg);
+            -webkit-transform: rotate(140deg);
+            -moz-transform: rotate(140deg);
+            -ms-transform: rotate(140deg);
+            -o-transform: rotate(140deg);
+        }
+        .item4{
+            left:69.2%;
+            top:77%;
+            transform: rotate(227.5deg);
+            -webkit-transform: rotate(227.5deg);
+            -moz-transform: rotate(227.5deg);
+            -ms-transform: rotate(227.5deg);
+            -o-transform: rotate(227.5deg);
+        }
+        .wrapper:hover .item4{
+            transform: rotate(162.5deg);
+            -webkit-transform: rotate(162.5deg);
+            -moz-transform: rotate(162.5deg);
+            -ms-transform: rotate(162.5deg);
+            -o-transform: rotate(162.5deg);
+        }
+        .item5{
+            left:50%;
+            top:80.8%;
+            transform: rotate(250deg);
+            -webkit-transform: rotate(250deg);
+            -moz-transform: rotate(250deg);
+            -ms-transform: rotate(250deg);
+            -o-transform: rotate(250deg);
+        }
+        .wrapper:hover .item5{
+            transform: rotate(185deg);
+            -webkit-transform: rotate(185deg);
+            -moz-transform: rotate(185deg);
+            -ms-transform: rotate(185deg);
+            -o-transform: rotate(185deg);
+        }
+        .item6{
+            left:30.8%;
+            top:77%;
+            transform: rotate(272.5deg);
+            -webkit-transform: rotate(272.5deg);
+            -moz-transform: rotate(272.5deg);
+            -ms-transform: rotate(272.5deg);
+            -o-transform: rotate(272.5deg);
+        }
+        .wrapper:hover .item6{
+            transform: rotate(207.5deg);
+            -webkit-transform: rotate(207.5deg);
+            -moz-transform: rotate(207.5deg);
+            -ms-transform: rotate(207.5deg);
+            -o-transform: rotate(207.5deg);
+        }
+        .item7{
+            left:14.6%;
+            top:66.2%;
+            transform: rotate(295deg);
+            -webkit-transform: rotate(295deg);
+            -moz-transform: rotate(295deg);
+            -ms-transform: rotate(295deg);
+            -o-transform: rotate(295deg);
+        }
+        .wrapper:hover .item7{
+            transform: rotate(230deg);
+            -webkit-transform: rotate(230deg);
+            -moz-transform: rotate(230deg);
+            -ms-transform: rotate(230deg);
+            -o-transform: rotate(230deg);
+        }
+        .item8{
+            left:3.8%;
+            top:50%;
+            transform: rotate(317.5deg);
+            -webkit-transform: rotate(317.5deg);
+            -moz-transform: rotate(317.5deg);
+            -ms-transform: rotate(317.5deg);
+            -o-transform: rotate(317.5deg);
+        }
+        .wrapper:hover .item8{
+            transform: rotate(252.5deg);
+            -webkit-transform: rotate(252.5deg);
+            -moz-transform: rotate(252.5deg);
+            -ms-transform: rotate(252.5deg);
+            -o-transform: rotate(252.5deg);
+        }
+        .item9{
+            left:0%;
+            top:30.8%;
+            transform: rotate(340deg);
+            -webkit-transform: rotate(340deg);
+            -moz-transform: rotate(340deg);
+            -ms-transform: rotate(340deg);
+            -o-transform: rotate(340deg);
+        }
+        .wrapper:hover .item9{
+            transform: rotate(275deg);
+            -webkit-transform: rotate(275deg);
+            -moz-transform: rotate(275deg);
+            -ms-transform: rotate(275deg);
+            -o-transform: rotate(275deg);
+        }
+        .item10{
+            left:3.8%;
+            top:11.6%;
+            transform: rotate(362.5deg);
+            -webkit-transform: rotate(362.5deg);
+            -moz-transform: rotate(362.5deg);
+            -ms-transform: rotate(362.5deg);
+            -o-transform: rotate(362.5deg);
+        }
+        .wrapper:hover .item10{
+            transform: rotate(297.5deg);
+            -webkit-transform: rotate(297.5deg);
+            -moz-transform: rotate(297.5deg);
+            -ms-transform: rotate(297.5deg);
+            -o-transform: rotate(297.5deg);
+        }
+        .item11{
+            left:14.6%;
+            top:-4.6%;
+            transform: rotate(385deg);
+            -webkit-transform: rotate(385deg);
+            -moz-transform: rotate(385deg);
+            -ms-transform: rotate(385deg);
+            -o-transform: rotate(385deg);
+        }
+        .wrapper:hover .item11{
+            transform: rotate(320deg);
+            -webkit-transform: rotate(320deg);
+            -moz-transform: rotate(320deg);
+            -ms-transform: rotate(320deg);
+            -o-transform: rotate(320deg);
+        }
+        .item12{
+            left:30.8%;
+            top:-15.4%;
+            transform: rotate(407.5deg);
+            -webkit-transform: rotate(407.5deg);
+            -moz-transform: rotate(407.5deg);
+            -ms-transform: rotate(407.5deg);
+            -o-transform: rotate(407.5deg);
+        }
+        .wrapper:hover .item12{
+            transform: rotate(342.5deg);
+            -webkit-transform: rotate(342.5deg);
+            -moz-transform: rotate(342.5deg);
+            -ms-transform: rotate(342.5deg);
+            -o-transform: rotate(342.5deg);
+        }
+        .item13{
+            left:50%;
+            top:-19.2%;
+            transform: rotate(430deg);
+            -webkit-transform: rotate(430deg);
+            -moz-transform: rotate(430deg);
+            -ms-transform: rotate(430deg);
+            -o-transform: rotate(430deg);
+        }
+        .wrapper:hover .item13{
+            transform: rotate(365deg);
+            -webkit-transform: rotate(365deg);
+            -moz-transform: rotate(365deg);
+            -ms-transform: rotate(365deg);
+            -o-transform: rotate(365deg);
+        }
+        .item14{
+            left:69.2%;
+            top:-15.4%;
+            transform: rotate(452.5deg);
+            -webkit-transform: rotate(452.5deg);
+            -moz-transform: rotate(452.5deg);
+            -ms-transform: rotate(452.5deg);
+            -o-transform: rotate(452.5deg);
+        }
+        .wrapper:hover .item14{
+            transform: rotate(387.5deg);
+            -webkit-transform: rotate(387.5deg);
+            -moz-transform: rotate(387.5deg);
+            -ms-transform: rotate(387.5deg);
+            -o-transform: rotate(387.5deg);
+        }
+        .item15{
+            left:85.4%;
+            top:-4.6%;
+            transform: rotate(475deg);
+            -webkit-transform: rotate(475deg);
+            -moz-transform: rotate(475deg);
+            -ms-transform: rotate(475deg);
+            -o-transform: rotate(475deg);
+        }
+        .wrapper:hover .item15{
+            transform: rotate(410deg);
+            -webkit-transform: rotate(410deg);
+            -moz-transform: rotate(410deg);
+            -ms-transform: rotate(410deg);
+            -o-transform: rotate(410deg);
+        }
+        .item16{
+            left:96.2%;
+            top:11.6%;
+            transform: rotate(497.5deg);
+            -webkit-transform: rotate(497.5deg);
+            -moz-transform: rotate(497.5deg);
+            -ms-transform: rotate(497.5deg);
+            -o-transform: rotate(497.5deg);
+        }
+        .wrapper:hover .item16{
+            transform: rotate(432.5deg);
+            -webkit-transform: rotate(432.5deg);
+            -moz-transform: rotate(432.5deg);
+            -ms-transform: rotate(432.5deg);
+            -o-transform: rotate(432.5deg);
+        }
+    </style>
+
+    <script>
+        window.console = window.console || function(t) {};
+        window.open = function(){ console.log('window.open is disabled.'); };
+        window.print = function(){ console.log('window.print is disabled.'); };
+        // Support hover state for mobile.
+        if (false) {
+            window.ontouchstart = function(){};
+        }
+    </script>
+
+</head>
+
+<body>
+
+<html>
+<body>
+<img id="umad3" src="//ZAOLE.NET/2.JPG" alt=""/>
+</body>
+</html>
+
+<script>
+    if (document.location.search.match(/type=embed/gi)) {
+        window.parent.postMessage('resize', "*");
+    }
+</script>
+
+
+<script>
+    var uMadJS = function () {
+        function init(element, config) {
+            if (arguments.length == 1) {
+                var config = {
+                    text: 'sample',
+                    color: '#FF8E00'
+                };
+            }
+            var wrap_html = '<div class="wrapper"><span>' + config.text + '</span>';
+            for (var j = 1; j <= 16; j++) {
+                wrap_html += '<div class="item' + j + ' shape" style="border-top-color:' + config.color + '"></div>';
+            }
+            var tmp = document.createElement('div');
+            tmp.appendChild(element.cloneNode(true));
+            wrap_html += '<div class="content">' + tmp.innerHTML + '</div></div>';
+            tmp.innerHTML = wrap_html;
+            element.parentNode.replaceChild(tmp.firstChild, element);
+        }
+        return { init: init };
+    }();
+    uMadJS.init(document.getElementById('umad3'), {
+        text: 'HERO',
+        color: '#FF0000'
+    });
+    //@ sourceURL=pen.js
+</script>
+
+</body>
+
+</html>

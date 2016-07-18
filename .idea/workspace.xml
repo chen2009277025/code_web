@@ -2,125 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb67660-2cde-4e63-9108-39d42dc9cb29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/font_1433757735_1585197 (1).eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/font_1433757735_1585197.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/font_1433757735_1585197.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/font_1433757735_1585197.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/Nike-Free-30-Womens-Running-Shoe-511495_600_A.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/asd23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/inner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/sdy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/shake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/180_3d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/404-02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/caipiao.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/downarrow.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/hover01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/input.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/link01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/link02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/loadding/loadding05.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/scroll.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/seachAnimate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/searching.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/snowfall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/starburst.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/tips.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/tips02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/tips03.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/tips04.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/tips05.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/tips06.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate/tips07.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/btn03.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/btn04.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/btn05.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/btn06.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/btn07.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/btn08.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/button09.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/checkbox02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/checkbox03.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/checkbox04.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/hover/hover03.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/hover/hover04.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/menuBtn.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/radio01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/switch/switch06.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn/switch/switch07.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dialog/dialog01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dialog/dialog1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/menu16.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/menu17.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/menu18.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/menu19.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nav/nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/mdialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/mobiscroll.android-ics-2.5.2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/mobiscroll.animation-2.5.2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/mobiscroll.core-2.5.2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/myDialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/shake.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/split.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/font_1433757735_1585197.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/fastclick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/howler.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.easing.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/mdialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/mobiscroll.android-ics-2.5.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/mobiscroll.core-2.5.2-zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/mobiscroll.core-2.5.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/mobiscroll.datetime-2.5.1-zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/mobiscroll.datetime-2.5.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/myDialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/shake.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/split.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/stopExecutionOnTimeout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/zepto.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tab/tab02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/autoResize.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/border/juchi.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/connectBook.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/double11tianmao.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/fullScreen.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/fullScreen02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/hover/hover06.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/hover/hover07.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/hover/icon.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/img.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/img_animation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/imgfilter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/ios-mobile-develop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/iosDatePicker.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/layout02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unknowimgSize02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unknowimgSize03.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unknowimgsize05.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unkonwimgSize.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unkonwimgSize01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unkownimgsize.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unkownimgsize04.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mid-unkownimgzise.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mobile-meta.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/regist_login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/scrollTopSearchBar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/setpinput.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/split.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/valid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/word/3dword.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/word/WordShowdown.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/word/backImg.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/word/border.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/word/mark.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/word/word-gradent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/wxshack.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/youhuiquan.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/hover/turn.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="code_download.iws" />
@@ -141,48 +23,7 @@
     <favorites_list name="code_download" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="checkbox04.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/btn/checkbox04.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5942">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="switch07.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/btn/switch/switch07.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="4" selection-start-line="6" selection-start-column="11" selection-end-line="26" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mark.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/word/mark.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="80" column="51" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hover07.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils/hover/hover07.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -198,7 +39,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/utils/mid-unknowimgsize05.html" />
         <option value="$PROJECT_DIR$/utils/wxshack.html" />
         <option value="$PROJECT_DIR$/utils/double11tianmao.html" />
         <option value="$PROJECT_DIR$/dialog/dialod01.html" />
@@ -249,6 +89,7 @@
         <option value="$PROJECT_DIR$/btn/switch/switch07.html" />
         <option value="$PROJECT_DIR$/utils/word/mark.html" />
         <option value="$PROJECT_DIR$/utils/hover/hover07.html" />
+        <option value="$PROJECT_DIR$/utils/hover/turn.html" />
       </list>
     </option>
   </component>
@@ -498,16 +339,16 @@
       <workItem from="1468299661687" duration="3894000" />
       <workItem from="1468305451977" duration="2537000" />
       <workItem from="1468475588940" duration="4732000" />
-      <workItem from="1468809901158" duration="8176000" />
+      <workItem from="1468809901158" duration="8495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19339000" />
+    <option name="totallyTimeSpent" value="19658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="23" width="1412" height="877" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25017974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -535,16 +376,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dialog/dialog01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
@@ -958,6 +789,16 @@
         <state relative-caret-position="26">
           <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/hover/turn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2966">
+          <caret line="394" column="0" selection-start-line="394" selection-start-column="0" selection-end-line="394" selection-end-column="0" />
+          <folding>
+            <marker date="1468822892000" expanded="true" signature="11911:11928" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
